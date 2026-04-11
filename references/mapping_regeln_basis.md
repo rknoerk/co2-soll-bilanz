@@ -129,3 +129,6 @@ Beispiele:
 - `Kalkulation Pos. 154: 10 DT × 50€. 500 ÷ 0,20€/km = 2.500 km. Annahme: Bahn`
 - `Kalkulation Pos. 140: 11 DT × 150€ = 1.650€. 1.650 ÷ 0,30€/km = 5.500 km. Diesel Euro 6`
 - `Schätzung: kein Aggregat in Kalkulation → Baustrom angenommen`
+
+Ausgabe-Format Eingabeliste:
+| Klimaktiv-Feld | Bezeichnung | Wert | Einheit | Notiz (Quelle / Rechenweg / Annahme) |
