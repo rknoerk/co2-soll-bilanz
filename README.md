@@ -31,16 +31,17 @@ Grundlage: Vereinfachte SOLL-Erfassung gemäß Kriterium I.3 der Ökologischen S
 ---
 
 ## Struktur
-SKILL.md                              Workflow, Trigger, Loop-Logik
-references/
-mapping_regeln_basis.md             Übersetzungsregeln, Annahmen, Rückfragen-Logik
-mapping_regeln_spielfilm.md         Ergänzungen für Spielfilm / Kurzfilm
-mapping_regeln_doku.md              Ergänzungen für Dokumentarfilm / Reportage
-klimaktiv_rechner_struktur_vereinfacht.json   Vereinfachte Rechner-Struktur (SOLL)
-klimaktiv_rechner_struktur.json     Vollständige Rechner-Struktur (Sonderfälle)
-onboarding_fragebogen.md            Fragebogen für offene Punkte nach Eingang der Unterlagen
-oekologische_standards_destilliert.md   25 Muss-Vorgaben, Stand September 2025
-leitlinien_bilanzierung_destilliert.md  Systemgrenzen, Wesentlichkeit, Berechnungsregeln
+| Datei | Inhalt |
+|---|---|
+| `SKILL.md` | Workflow, Trigger, Loop-Logik |
+| `references/mapping_regeln_basis.md` | Übersetzungsregeln, Annahmen, Rückfragen-Logik |
+| `references/mapping_regeln_spielfilm.md` | Ergänzungen für Spielfilm / Kurzfilm |
+| `references/mapping_regeln_doku.md` | Ergänzungen für Dokumentarfilm / Reportage |
+| `references/klimaktiv_rechner_struktur_vereinfacht.json` | Vereinfachte Rechner-Struktur (SOLL) |
+| `references/klimaktiv_rechner_struktur.json` | Vollständige Rechner-Struktur (Sonderfälle) |
+| `references/onboarding_fragebogen.md` | Fragebogen für offene Punkte nach Eingang der Unterlagen |
+| `references/oekologische_standards_destilliert.md` | 25 Muss-Vorgaben, Stand September 2025 |
+| `references/leitlinien_bilanzierung_destilliert.md` | Systemgrenzen, Wesentlichkeit, Berechnungsregeln |
 
 ---
 
