@@ -141,6 +141,8 @@ Monitore, Gebäudeart etc.) werden nicht in der Notiz wiederholt.
 Maskenfelder die nicht in der Notiz stehen, werden stattdessen in der ersten Spalte
 (Klimaktiv-Feld) als Zusatz notiert, z.B.:
 'Postproduktion Bild > Arbeitsplatz (Ökostrom) · Anzahl: 1 · Monitore: 2'
+'Motive > Strom (Schätzung) · Bürogebäude · durchschnittl. Verbrauch'
+Gilt für alle Felder die direkt in der Rechner-Maske als Dropdown existieren.
 
 Ausgabe-Format Eingabeliste:
 | Klimaktiv-Feld | Bezeichnung | Wert | Einheit | Notiz (Quelle / Rechenweg / Annahme) |
