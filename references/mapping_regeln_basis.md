@@ -20,7 +20,7 @@ oder jede Kombination davon.
 | Genre | Kalkulation Deckblatt |
 | Herstellungsverfahren | Kalkulation (On location / Studio / Mix) |
 | Medium | Kalkulation (Kino / TV / Streaming) |
-| Art | Kalkulation (Auftragsproduktion / Unabhängige Produktion etc.) |
+| Art | Kalkulation. Exakte Optionen im Klimaktiv-Rechner: Keine Angabe / Eigenproduktion (TV und VOD) / Auftragsproduktion / Co-Produktion / Unabhängige und geförderte Produktion |
 | Länge [min] | Kalkulation Deckblatt |
 | Drehtage | Kalkulation Deckblatt, Herstellungsplan |
 | Postproduktion (Tage) | Kalkulation (Rohschnitt + Feinschnitt + Mischung) |
