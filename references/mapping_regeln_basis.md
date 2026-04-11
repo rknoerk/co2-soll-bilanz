@@ -66,7 +66,8 @@ oder jede Kombination davon.
 
 | Kalkulations-Position | Klimaktiv-Feld | Regel |
 |---|---|---|
-| Material für Bau (€ netto) | Kulissen-Bau > Holzbau: monetäre Abschätzung | Direktübernahme |
+| Material für Bau (€ netto) | Kulissen-Bau > Holzbau: monetäre Abschätzung | Direktübernahme. Nur Pos. "Material für Bau (Kauf)" — An/Abtransporte sind Warentransport. |
+| An/Abtransporte Setbau (€) | Warentransport > Diesel Kosten | Transportkosten für Setbau/Dekoration gehören zu Warentransport, nicht zu Kulissen-Bau. Kraftstoffanteil schätzen (ca. 50%), Notiz setzen. |
 | Kostüm Kauf (€) | Kostüme > Kostümkauf | Direktübernahme |
 | Kostüm Miete (€) | Kostüme > Kostümmiete/Weiternutzung | Direktübernahme |
 | Anfertigung Kostüm (€) | Kostüme > Kostümkauf | Wird wie Kauf behandelt |
