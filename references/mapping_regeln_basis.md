@@ -46,7 +46,7 @@ oder jede Kombination davon.
 | Kalkulations-Position | Klimaktiv-Feld | Regel |
 |---|---|---|
 | Reisekosten Inland (€) | Personentransporte > Bahn oder PKW | Art aus Kontext ableiten, Notiz setzen |
-| Km-Geld (€) | Personentransporte > Pkw Distanzschätzung | Betrag ÷ Erstattungssatz = km |
+| Km-Geld (€) | Personentransporte > Pkw Distanzschätzung | Betrag ÷ Erstattungssatz = km. Kraftstofftyp ist separater Eintrag — nicht in der Notiz wiederholen. |
 | Benzin/Diesel (€) | Personentransporte > Diesel/Benzin Kosten | Direktübernahme |
 | Taxi / Shuttle (€) | Personentransporte > Taxikosten | Direktübernahme |
 | Flüge Ausland (Anzahl) | Flugreisen > Pauschal oder Detailliert | Streckenklasse aus Drehortstrecke |
