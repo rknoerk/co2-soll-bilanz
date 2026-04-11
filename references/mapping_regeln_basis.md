@@ -133,5 +133,9 @@ Beispiele:
 Felder die in der Rechner-Maske als eigene Eingabe existieren (Anzahl Arbeitsplätze,
 Monitore, Gebäudeart etc.) werden nicht in der Notiz wiederholt.
 
+Maskenfelder die nicht in der Notiz stehen, werden stattdessen in der ersten Spalte
+(Klimaktiv-Feld) als Zusatz notiert, z.B.:
+'Postproduktion Bild > Arbeitsplatz (Ökostrom) · Anzahl: 1 · Monitore: 2'
+
 Ausgabe-Format Eingabeliste:
 | Klimaktiv-Feld | Bezeichnung | Wert | Einheit | Notiz (Quelle / Rechenweg / Annahme) |
