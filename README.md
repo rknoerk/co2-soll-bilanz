@@ -84,5 +84,4 @@ Geplant:
 Interesse an KI-Tooling für die CO₂-Bilanzierung?
 Voraussetzung: Claude-Account und Praxiserfahrung als Green Consultant.
 
-Bundesverband Green Consultants Deutschland: [bvgcd.de](https://bvgcd.de)
-ENVO Group International: [envo.group](https://envo.group)
+Kontakt: [robert@knoerk.com](mailto:robert@knoerk.com)
