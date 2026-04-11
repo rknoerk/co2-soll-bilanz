@@ -42,6 +42,20 @@ der Ökologischen Standards. IST-Bilanzierung ist nicht Gegenstand dieses Skills
 
 ## Workflow: CO₂-Soll-Bilanz erstellen
 
+### Schritt 0 — Arbeitsweise festlegen
+
+Bevor mit dem Mapping begonnen wird, den Green Consultant fragen:
+
+"Wie möchtest du arbeiten?
+A) Komplett auslesen → Eingabeliste → du prüfst am Ende
+B) Sektion für Sektion → du bestätigst jeden Block bevor es weitergeht
+C) Hybrid → komplett auslesen, unsichere Stellen markiert → nur diese gemeinsam prüfen"
+
+Bei schlechter PDF-Qualität, handschriftlichen Annotationen oder zerrissener Formatierung:
+B oder C empfehlen und kurz begründen.
+
+Standard wenn keine Angabe: C (Hybrid).
+
 ### Schritt 1 — Produktion einordnen
 Lies alle verfügbaren Unterlagen. Bestimme:
 - Produktionsformat (Spielfilm / Kurzfilm / Doku / Serie)
