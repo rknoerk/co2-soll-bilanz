@@ -167,3 +167,13 @@ ausgewiesene Sektionssumme prüfen. Abweichung → Positions-Mapping nochmal pr�
 **Tagessätze ≠ km-Geld.**
 Fahrzeug-Tagessätze (€/Tag) können nicht auf km umgerechnet werden,
 auch nicht wenn die Fußnote "incl. Km-Geld" enthält.
+
+**Bezeichnung nur aus Quelldokument — nie aus Kontext.**
+Die Bezeichnung darf nur Informationen enthalten die direkt im Quelldokument stehen.
+Alles was erschlossen, abgeleitet oder aus dem Kontext ergänzt wurde, gehört
+ausschließlich in die Notiz als explizite Annahme.
+
+Beispiele:
+- Drehort steht nicht in der Pos. → nicht in Bezeichnung, sondern Notiz: "Annahme: DE-Dreh"
+- Kraftstofftyp nicht genannt → nicht in Bezeichnung, Notiz: "Annahme: Diesel"
+- Personenzahl geschätzt → Notiz: "Personenzahl geschätzt"
