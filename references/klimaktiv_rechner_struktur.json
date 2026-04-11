@@ -1,0 +1,609 @@
+{
+  "meta": {
+    "quelle": "Green Shooting CO2-Rechner 4.0, KlimAktiv gGmbH",
+    "url": "https://go.greenshooting.de",
+    "erfasst_am": "2026-04-11",
+    "erfasst_von": "Robert Knörk / Claude Sonnet",
+    "hinweis": "Direkt aus dem Rechner extrahiert via Browser-Automatisierung. Alle Quellen-Bezeichnungen originalgetreu übernommen."
+  },
+  "sektoren": [
+    {
+      "id": "energie",
+      "sect_id": 31,
+      "bezeichnung": "Energie",
+      "themen": [
+        {
+          "id": "film_fernsehstudio",
+          "subsect_id": 128,
+          "bezeichnung": "Film- und Fernsehstudio",
+          "beschreibung": "Energieverbrauche von Film- und Fernsehstudios",
+          "quellen": [
+            "Studio: Ökostrom (Schätzung)",
+            "Studio: Ökostrom (Verbrauch bekannt)",
+            "Studio: Strom (Schätzung)",
+            "Studio: Strom (Verbrauch bekannt)",
+            "Erdgas",
+            "Heizöl leicht",
+            "Fernwärme (Mix Deutschland)",
+            "Flüssiggas",
+            "Biogas (100%)",
+            "Extern ermittelte Emissionen"
+          ],
+          "eingabefelder": {
+            "menge": { "einheit": "Fläche in m²", "pflicht": true },
+            "tägliche_dauer_h": {
+              "typ": "auswahl",
+              "optionen": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+              "standard": 8
+            },
+            "anzahl_tage": {
+              "typ": "auswahl",
+              "optionen_tage": "1–60",
+              "optionen_monate": "3–12 Monate"
+            },
+            "stromverbrauch": {
+              "typ": "auswahl",
+              "optionen": ["unbekannter Stromverbrauch", "niedriger Stromverbrauch", "durchschnittlicher Stromverbrauch", "erhöhter Stromverbrauch"]
+            },
+            "bezeichnung": { "typ": "freitext" },
+            "notiz": { "typ": "freitext" }
+          }
+        },
+        {
+          "id": "technische_ausruestung",
+          "subsect_id": 129,
+          "bezeichnung": "Technische Ausrüstung",
+          "quellen": [
+            "Ökostrom (Baustrom: Schätzung)",
+            "Ökostrom (Baustrom: Verbrauch bekannt)",
+            "Strom (Baustrom: Schätzung)",
+            "Strom (Baustrom: Verbrauch bekannt)",
+            "Dieselstromaggregat (Verbrauch bekannt)",
+            "Dieselstromaggregat (Verbrauchschätzung)",
+            "HVO100-Generator (Verbrauch bekannt)",
+            "HVO100-Generator (Verbrauchschätzung)",
+            "Mobiler Batteriespeicher (Verbrauch bekannt)",
+            "Mobiler Batteriespeicher (Verbrauchsschätzung)",
+            "Mobiler Batteriespeicher (Verbrauch bekannt, Ökostrom)",
+            "Mobiler Batteriespeicher (Verbrauchsschätzung, Ökostrom)",
+            "Extern ermittelte Emissionen"
+          ],
+          "eingabefelder": {
+            "menge": { "einheit": "Nutzungstage", "pflicht": true },
+            "stromverbrauch": {
+              "typ": "auswahl",
+              "optionen": ["unbekannter Stromverbrauch", "niedriger Stromverbrauch", "durchschnittlicher Stromverbrauch", "erhöhter Stromverbrauch"]
+            },
+            "setbeleuchtung": {
+              "typ": "auswahl",
+              "optionen": ["inkl. Setbeleuchtung", "exkl. Setbeleuchtung"]
+            },
+            "catering": {
+              "typ": "auswahl",
+              "optionen": ["inkl. Catering", "exkl. Catering"]
+            },
+            "bezeichnung": { "typ": "freitext" },
+            "notiz": { "typ": "freitext" }
+          },
+          "hinweis_aggregat": "Bei Dieselaggregat zusätzlich: Dauerleistung in kVA, Auslastung %, tägliche Nutzungsdauer h"
+        },
+        {
+          "id": "motive",
+          "subsect_id": 131,
+          "bezeichnung": "Motive",
+          "quellen": [
+            "Motive: Ökostrom (Schätzung)",
+            "Motive: Ökostrom (Verbrauch bekannt)",
+            "Motive: Strom (Schätzung)",
+            "Motive: Strom (Verbrauch bekannt)",
+            "Motive: Wärmebedarf (pauschal)",
+            "Erdgas",
+            "Heizöl leicht",
+            "Fernwärme (Mix Deutschland)",
+            "Flüssiggas",
+            "Biogas (100%)",
+            "Extern ermittelte Emissionen"
+          ],
+          "eingabefelder": {
+            "menge": { "einheit": "Fläche in m²", "pflicht": true },
+            "gebäudeart": {
+              "typ": "auswahl",
+              "optionen": [
+                "Wohnung", "Einfamilienhaus",
+                "Bürogebäude", "Bürogebäude, klimatisiert", "Bürogebäude, nur beheizt",
+                "Hotel: 1 und 2 Sterne", "Hotel: 3 Sterne", "Hotel: 4 und 5 Sterne",
+                "Pension einfach", "Herberge, Ferienheim",
+                "Bar, Kneipe", "Restaurant", "Kantine, Mensa",
+                "Kino", "Theater", "Saal, Stadthalle",
+                "Schule", "Sporthalle", "Schwimmhalle, Hallenbad", "Fitnessstudio",
+                "Handel Non-Food", "Lebensmittelhandel", "Kaufhaus, Einkaufzentrum",
+                "Lagerhaus", "Kosmetik / Friseur", "Krankenhaus",
+                "Flughafen Terminal", "Flughafen Frachtterminal", "Flughafen Hangar beheizt",
+                "Bahnhof mit Geschäften"
+              ]
+            },
+            "verbrauchsniveau": {
+              "typ": "auswahl",
+              "optionen": ["geringer Stromverbrauch", "durchschnittlicher Stromverbrauch", "hoher Stromverbrauch"]
+            },
+            "dauer": {
+              "typ": "auswahl",
+              "optionen": ["<1 Tag", "1 Tag", "1,5 Tage", "2 Tage", "2,5 Tage", "... bis 60 Tage", "3 Monate", "... bis 12 Monate"]
+            },
+            "bezeichnung": { "typ": "freitext" },
+            "notiz": { "typ": "freitext" }
+          }
+        },
+        {
+          "id": "postproduktion_bild",
+          "subsect_id": 133,
+          "bezeichnung": "Postproduktion: Bild",
+          "quellen": [
+            "Schnitt (Schätzung)",
+            "Schnitt (Schätzung, Ökostrom)",
+            "Farbkorrektur/Color Grading (Schätzung)",
+            "Farbkorrektur/Color Grading (Schätzung, Ökostrom)",
+            "Grafik/VFX (Schätzung)",
+            "Grafik/VFX (Schätzung, Ökostrom)",
+            "Postproduktion Bild: Arbeitsplatz",
+            "Postproduktion Bild: Arbeitsplatz (Ökostrom)",
+            "CPU-Rendering",
+            "CPU-Rendering (Ökostrom)",
+            "GPU-Rendering",
+            "GPU-Rendering (Ökostrom)",
+            "Extern ermittelte Emissionen"
+          ],
+          "eingabefelder": {
+            "menge": { "einheit": "Arbeitsplätze (Anzahl)", "pflicht": true },
+            "anzahl_monitore": {
+              "typ": "auswahl",
+              "optionen": ["1 Monitor", "2 Monitore", "3 Monitore", "4 Monitore"]
+            },
+            "arbeitstage": { "einheit": "Tage", "typ": "auswahl" },
+            "bezeichnung": { "typ": "freitext" },
+            "notiz": { "typ": "freitext" }
+          }
+        },
+        {
+          "id": "postproduktion_ton",
+          "subsect_id": 134,
+          "bezeichnung": "Postproduktion: Ton",
+          "quellen": [
+            "Sound (Schätzung)",
+            "Sound (Schätzung, Ökostrom)",
+            "Postproduktion Ton: Arbeitsplatz",
+            "Postproduktion Ton: Arbeitsplatz (Ökostrom)",
+            "Extern ermittelte Emissionen"
+          ],
+          "eingabefelder": {
+            "menge": { "einheit": "Arbeitsplätze (Anzahl)", "pflicht": true },
+            "arbeitstage": { "einheit": "Tage", "typ": "auswahl" },
+            "bezeichnung": { "typ": "freitext" },
+            "notiz": { "typ": "freitext" }
+          }
+        },
+        {
+          "id": "postproduktion_sonstiges",
+          "subsect_id": 135,
+          "bezeichnung": "Postproduktion: Sonstiges",
+          "quellen": [
+            "Mastering (Schätzung)",
+            "Mastering (Schätzung, Ökostrom)",
+            "Postproduktion Sonstige: Arbeitsplatz",
+            "Postproduktion Sonstige: Arbeitsplatz (Ökostrom)",
+            "Festplatten-Archiv",
+            "Extern ermittelte Emissionen"
+          ],
+          "eingabefelder": {
+            "menge": { "einheit": "Arbeitsplätze oder Anzahl", "pflicht": true },
+            "arbeitstage": { "einheit": "Tage", "typ": "auswahl" },
+            "bezeichnung": { "typ": "freitext" },
+            "notiz": { "typ": "freitext" }
+          }
+        },
+        {
+          "id": "bueroräume",
+          "subsect_id": 136,
+          "bezeichnung": "Büroräume",
+          "quellen": [
+            "Büros: Ökostrom (Schätzung)",
+            "Büros: Ökostrom (Verbrauch bekannt)",
+            "Büros: Strom (Schätzung)",
+            "Büros: Strom (Verbrauch bekannt)",
+            "Büros: Wärmebedarf (pauschal)",
+            "Büros: Arbeitsplatz",
+            "Büros: Arbeitsplatz (Ökostrom)",
+            "Homeoffice (Arbeitstage)",
+            "Extern ermittelte Emissionen"
+          ],
+          "eingabefelder": {
+            "menge": { "einheit": "Fläche in m² oder Arbeitstage", "pflicht": true },
+            "gebäudeart": {
+              "typ": "auswahl",
+              "optionen": ["Bürogebäude", "Bürogebäude, klimatisiert", "Bürogebäude, nur beheizt"]
+            },
+            "dauer": {
+              "typ": "auswahl",
+              "optionen": ["Tage (1–60)", "Monate (3–12)"]
+            },
+            "bezeichnung": { "typ": "freitext" },
+            "notiz": { "typ": "freitext" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "reise_transport",
+      "sect_id": 22,
+      "bezeichnung": "Reise/Transport",
+      "themen": [
+        {
+          "id": "flugreisen",
+          "subsect_id": 108,
+          "bezeichnung": "Flugreisen",
+          "eingabemodi": [
+            {
+              "modus": "detailliert",
+              "beschreibung": "Einzelne Strecken mit Flughafensuche",
+              "eingabefelder": {
+                "start_flughafen": { "typ": "suche", "pflicht": true },
+                "stopp_flughafen": { "typ": "suche", "pflicht": false },
+                "ziel_flughafen": { "typ": "suche", "pflicht": true },
+                "richtung": {
+                  "typ": "radio",
+                  "optionen": ["Einfache Strecke", "Hin- und Rückflug"]
+                },
+                "klasse": {
+                  "typ": "auswahl",
+                  "optionen": ["Economy / Charter", "Business", "First Class"]
+                },
+                "anzahl_passagiere": { "typ": "zahl", "pflicht": true },
+                "anzahl_fluege": { "typ": "zahl", "pflicht": true },
+                "notiz": { "typ": "freitext" }
+              }
+            },
+            {
+              "modus": "pauschal",
+              "beschreibung": "Wenn Strecken nicht bekannt sind",
+              "quellen": [
+                "Kurzstreckenflüge bis 900 km (Pauschal)",
+                "Mittelstreckenflüge bis 2000 km (Pauschal)",
+                "Langstreckenflüge (Pauschal)",
+                "Extern ermittelte indirekte Emissionen"
+              ],
+              "eingabefelder": {
+                "menge": { "einheit": "Anzahl Flüge (1 Flug = Hin- und Rückflug)", "pflicht": true },
+                "bezeichnung": { "typ": "freitext" },
+                "notiz": { "typ": "freitext" }
+              }
+            }
+          ]
+        },
+        {
+          "id": "personentransporte",
+          "subsect_id": 65,
+          "bezeichnung": "Personentransporte",
+          "quellen": {
+            "kraftstoffe_detailliert": [
+              "Diesel Verbrauch", "Diesel Distanz", "Diesel Kosten",
+              "Benzin Verbrauch", "Benzin Distanz", "Benzin Kosten",
+              "Autogas (LPG) Verbrauch", "Autogas (LPG) Distanz", "Autogas (LPG) Kosten",
+              "Erdgas (CNG) Verbrauch", "Erdgas (CNG) Distanz", "Erdgas (CNG) Kosten",
+              "Biomethan (Bio-CNG) Verbrauch", "Biomethan (Bio-CNG) Distanz", "Biomethan (Bio-CNG) Kosten",
+              "HVO100 Verbrauch", "HVO100 Distanz",
+              "Biodiesel Verbrauch", "Biodiesel Distanz",
+              "Grauer Wasserstoff Verbrauch", "Grauer Wasserstoff Distanz",
+              "Grüner Wasserstoff Verbrauch", "Grüner Wasserstoff Distanz",
+              "Bio-LPG Verbrauch", "Bio-LPG Distanz",
+              "Strom Verbrauch", "Strom Distanz",
+              "Ökostrom Verbrauch", "Ökostrom Distanz"
+            ],
+            "pauschal": [
+              "Pkw (Distanzschätzung)",
+              "Taxikosten",
+              "ÖPNV: Bus, Stadtbahn, Regiobahn",
+              "Reisebus",
+              "Bahn Fernverkehr Deutschland",
+              "Bahn Fernverkehr Europa",
+              "Personentransport Küsten- und Binnengewässer",
+              "PKW-Transport Küsten- und Binnengewässer",
+              "Extern ermittelte Emissionen"
+            ]
+          },
+          "einheiten_nach_typ": {
+            "Verbrauch": "Liter",
+            "Distanz": "km",
+            "Kosten": "Euro (brutto)",
+            "Distanzschätzung": "km",
+            "Taxikosten": "Euro (brutto)",
+            "ÖPNV": "Personen-km",
+            "Reisebus": "Personen-km",
+            "Bahn": "Personen-km"
+          }
+        },
+        {
+          "id": "warentransport",
+          "subsect_id": 111,
+          "bezeichnung": "Warentransport",
+          "quellen": {
+            "kraftstoffe_detailliert": [
+              "Diesel Verbrauch", "Diesel Distanz", "Diesel Kosten",
+              "Benzin Verbrauch", "Benzin Distanz", "Benzin Kosten",
+              "Autogas (LPG) Verbrauch", "Autogas (LPG) Distanz", "Autogas (LPG) Kosten",
+              "Erdgas (CNG) Verbrauch", "Erdgas (CNG) Distanz", "Erdgas (CNG) Kosten",
+              "Biomethan (Bio-CNG) Verbrauch", "Biomethan (Bio-CNG) Distanz", "Biomethan (Bio-CNG) Kosten",
+              "HVO100 Verbrauch", "HVO100 Distanz",
+              "Biodiesel Verbrauch", "Biodiesel Distanz",
+              "Bio-LPG Verbrauch", "Bio-LPG Distanz",
+              "Grauer Wasserstoff Verbrauch", "Grauer Wasserstoff Distanz",
+              "Grüner Wasserstoff Verbrauch", "Grüner Wasserstoff Distanz",
+              "Strom Verbrauch", "Strom Distanz",
+              "Ökostrom Verbrauch", "Ökostrom Distanz"
+            ],
+            "fahrzeugtypen_und_transport": [
+              "Lkw < 7,5 t (Europa)",
+              "Lkw 7,5-12 t (Europa)",
+              "Lkw 12-24 t (Europa)",
+              "Last-/Sattelzug 24-40 t (Europa)",
+              "Zug (generisch, Europa)",
+              "Containerschiff (generisch)",
+              "Luftfracht: Belly-Fracht",
+              "Luftfracht: Frachtflugzeug",
+              "Extern ermittelte indirekte Emissionen"
+            ]
+          }
+        },
+        {
+          "id": "uebernachtung",
+          "subsect_id": 109,
+          "bezeichnung": "Übernachtung",
+          "quellen": [
+            "Ferienwohnung",
+            "Jugendherberge, Mehrbettzimmer",
+            "Hotel (durchschnittlich, Deutschland)",
+            "Hotel (durchschnittlich, Europa)",
+            "Hotel (durchschnittlich, international)",
+            "Hotel (zertifiziert, klimafreundlich, Deutschland)",
+            "Hotel (zertifiziert, klimafreundlich, Europa)",
+            "Hotel (Luxusklasse, Deutschland)",
+            "Extern ermittelte Emissionen"
+          ],
+          "eingabefelder": {
+            "menge": { "einheit": "Anzahl Nächte", "pflicht": true },
+            "bezeichnung": { "typ": "freitext" },
+            "notiz": { "typ": "freitext" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "catering",
+      "sect_id": 16,
+      "bezeichnung": "Catering",
+      "themen": [
+        {
+          "id": "essen",
+          "subsect_id": 107,
+          "bezeichnung": "Essen",
+          "quellen": [
+            "Mahlzeit (einfach)",
+            "Mahlzeit (standard)",
+            "Mahlzeit (gehoben)",
+            "Snack",
+            "Vollverpflegung (ohne Frühstück)",
+            "Vollverpflegung",
+            "Extern ermittelte Emissionen"
+          ],
+          "eingabefelder": {
+            "menge": { "einheit": "Anzahl der Tage × Personen (Portionen)", "pflicht": true },
+            "fleischkonsum": {
+              "typ": "auswahl",
+              "optionen": ["Mischkost", "fleischreduziert", "vegetarisch", "vegan"]
+            },
+            "bio_anteil": {
+              "typ": "auswahl",
+              "optionen": ["konventionell", "teilweise bio (ca. 50 %)", "bio"]
+            },
+            "regionalitaet": {
+              "typ": "auswahl",
+              "optionen": ["standard", "teilweise regional und saisonal", "regional und saisonal"]
+            },
+            "bezeichnung": { "typ": "freitext" },
+            "notiz": { "typ": "freitext" }
+          }
+        },
+        {
+          "id": "geschirr",
+          "subsect_id": 64,
+          "bezeichnung": "Geschirr",
+          "quellen": [
+            "Mehrwegbecher",
+            "Einwegbecher (Verbrauch bekannt)",
+            "Einwegbecher (Schätzung)",
+            "Teller (Verbrauch bekannt)",
+            "Teller (Schätzung)",
+            "Besteck (Verbrauch bekannt)",
+            "Besteck (Schätzung)",
+            "Extern ermittelte Emissionen"
+          ],
+          "eingabefelder": {
+            "menge": { "einheit": "Anzahl Stück", "pflicht": true },
+            "bezeichnung": { "typ": "freitext" },
+            "notiz": { "typ": "freitext" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "materialeinsatz",
+      "sect_id": 32,
+      "bezeichnung": "Materialeinsatz",
+      "themen": [
+        {
+          "id": "kulissen_bau",
+          "subsect_id": 130,
+          "bezeichnung": "Kulissen-Bau",
+          "quellen": {
+            "bodenbeläge": [
+              "Bodenbelag: Linoleumboden",
+              "Bodenbelag: Massivholzparkett",
+              "Bodenbelag: PVC-Boden",
+              "Bodenbelag: PVC-/Vinyl-Fliesen",
+              "Bodenbelag: Teppichboden"
+            ],
+            "holzbau": [
+              "Holzbau: Balken/Vierkantholz/Latten",
+              "Holzbau: Balken/Vierkantholz/Latten (Länge)",
+              "Holzbau: Furniersperrholz (kg)",
+              "Holzbau: Furniersperrholz (Volumen)",
+              "Holzbau: Mitteldichte Faserplatte (MDF)",
+              "Holzbau: Mitteldichte Faserplatte (MDF, Volumen)",
+              "Holzbau: OSB-Platte (kg)",
+              "Holzbau: OSB-Platte (Volumen)",
+              "Holzbau: Spanplatte (kg)",
+              "Holzbau: Spanplatte (Volumen)",
+              "Holzbau: monetäre Abschätzung"
+            ],
+            "spezial": [
+              "EPS Hartschaum für Kulissenbau (Styropor®)",
+              "Gipskarton (kg)",
+              "Gipskarton (m2)",
+              "Gipskarton: monetäre Abschätzung"
+            ],
+            "farben_lacke": [
+              "Dispersionswandfarbe (m2)",
+              "Dispersionswandfarbe (Liter)",
+              "Lösemittellack (m2)",
+              "Lösemittellack (Liter)",
+              "Wasserlack (m2)",
+              "Wasserlack (Liter)"
+            ],
+            "textilien_sonstiges": [
+              "Bühnenmolton",
+              "Messerips/Eventteppich",
+              "sonstige Ausstattung: Folienrollen",
+              "sonstige Ausstattung: Gafferrolle",
+              "Extern ermittelte Emissionen"
+            ]
+          }
+        },
+        {
+          "id": "kostueme",
+          "subsect_id": 137,
+          "bezeichnung": "Kostüme",
+          "quellen": [
+            "Kostümmiete/Weiternutzung",
+            "Kostümkauf",
+            "Extern ermittelte Emissionen"
+          ],
+          "eingabefelder": {
+            "menge": { "einheit": "Euro (brutto)", "pflicht": true },
+            "bezeichnung": { "typ": "freitext" },
+            "notiz": { "typ": "freitext" }
+          },
+          "hinweis": "Kostümmiete wird mit ca. 10% des Kaufpreises als CO2-Äquivalent berechnet (Quelle: P. Gassmann 2025)"
+        },
+        {
+          "id": "requisiten",
+          "subsect_id": 138,
+          "bezeichnung": "Requisiten",
+          "beschreibung": "Kraftstoffe für Requisiten (z.B. Fahrzeuge im Bild, Boote, Flugzeuge)",
+          "quellen": [
+            "Benzin Verbrauch",
+            "Diesel Verbrauch",
+            "Strom Verbrauch",
+            "Ökostrom Verbrauch",
+            "Autogas (LPG) Verbrauch",
+            "Erdgas (CNG) Verbrauch",
+            "JET A1 / A (Kerosin)",
+            "AvGas (Flugbenzin)",
+            "Schweröl für Schiffe (in kg)",
+            "Schweröl für Schiffe (in L)",
+            "Marine Diesel Öl",
+            "Extern ermittelte Emissionen"
+          ],
+          "eingabefelder": {
+            "menge": { "einheit": "Liter (außer Schweröl in kg: kg)", "pflicht": true },
+            "bezeichnung": { "typ": "freitext" },
+            "notiz": { "typ": "freitext" }
+          }
+        },
+        {
+          "id": "abfall",
+          "subsect_id": 139,
+          "bezeichnung": "Abfall",
+          "quellen": [
+            "Restmüll (Verbrennung, Behälter)",
+            "Restmüll (Verbrennung, kg)",
+            "Papier & Pappe (Recycling, Behälter)",
+            "Papier & Pappe (Recycling, kg)",
+            "Verpackungen (Recycling, Behälter)",
+            "Verpackungen (Recycling, kg)",
+            "Biomüll (Kompostierung, Behälter)",
+            "Biomüll (Kompostierung, kg)",
+            "Bauschutt (Deponie, Container)",
+            "Holzabfall (Recycling oder Verbrennung, Container)",
+            "Glas/Glasmaterialien (Recycling, kg)",
+            "Metallschrott gemischt (Recycling, kg)",
+            "Extern ermittelte Emissionen"
+          ],
+          "eingabefelder": {
+            "menge": { "einheit": "Anzahl Behälter/Container oder kg", "pflicht": true },
+            "behältergroesse": {
+              "typ": "auswahl",
+              "optionen": ["240 Liter (2-Rad-Tonne)", "1100 Liter (4-Rad-Container)"],
+              "gilt_fuer": "Behälter-Quellen"
+            },
+            "bezeichnung": { "typ": "freitext" },
+            "notiz": { "typ": "freitext" }
+          }
+        },
+        {
+          "id": "bueromaaterial",
+          "subsect_id": 141,
+          "bezeichnung": "Büromaterial",
+          "quellen": [
+            "Büropapier (detaillierter Verbrauch)",
+            "Recyclingpapier (detaillierter Verbrauch)",
+            "Extern ermittelte Emissionen"
+          ],
+          "eingabefelder": {
+            "menge": { "einheit": "Anzahl Packungen", "pflicht": true },
+            "papiergroesse": {
+              "typ": "auswahl",
+              "optionen": ["DIN A4", "DIN A3"]
+            },
+            "grammatur": {
+              "typ": "auswahl",
+              "optionen": ["80 g/m²", "90 g/m²", "160 g/m²"]
+            },
+            "bezugsgroesse": {
+              "typ": "auswahl",
+              "optionen": ["5er-Packung (2500 Blätter)", "1 Blatt"]
+            },
+            "bezeichnung": { "typ": "freitext" },
+            "notiz": { "typ": "freitext" }
+          }
+        },
+        {
+          "id": "sonstiges",
+          "subsect_id": 140,
+          "bezeichnung": "Sonstiges",
+          "quellen": [
+            "Propangasflaschen",
+            "Toilettenpapier (kg)",
+            "Toilettenpapier (detaillierter Verbrauch)",
+            "Recycling-Toilettenpapier (kg)",
+            "Recycling-Toilettenpapier (detaillierter Verbrauch)",
+            "Extern ermittelte Emissionen"
+          ],
+          "eingabefelder": {
+            "menge": { "einheit": "Anzahl oder kg", "pflicht": true },
+            "bezeichnung": { "typ": "freitext" },
+            "notiz": { "typ": "freitext" }
+          }
+        }
+      ]
+    }
+  ]
+}
