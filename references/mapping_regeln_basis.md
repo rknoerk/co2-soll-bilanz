@@ -130,5 +130,8 @@ Beispiele:
 - `Kalkulation Pos. 140: 11 DT × 150€ = 1.650€. 1.650 ÷ 0,30€/km = 5.500 km. Diesel Euro 6`
 - `Schätzung: kein Aggregat in Kalkulation → Baustrom angenommen`
 
+Felder die in der Rechner-Maske als eigene Eingabe existieren (Anzahl Arbeitsplätze,
+Monitore, Gebäudeart etc.) werden nicht in der Notiz wiederholt.
+
 Ausgabe-Format Eingabeliste:
 | Klimaktiv-Feld | Bezeichnung | Wert | Einheit | Notiz (Quelle / Rechenweg / Annahme) |
