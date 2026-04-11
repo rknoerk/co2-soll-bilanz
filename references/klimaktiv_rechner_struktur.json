@@ -159,7 +159,7 @@
               "typ": "auswahl",
               "optionen": ["1 Monitor", "2 Monitore", "3 Monitore", "4 Monitore"]
             },
-            "arbeitstage": { "einheit": "Tage", "typ": "auswahl" },
+            "arbeitstage": { "einheit": "Stunden (Tage × 10h, Filmproduktion)", "typ": "auswahl" },
             "bezeichnung": { "typ": "freitext" },
             "notiz": { "typ": "freitext" }
           }
@@ -177,7 +177,7 @@
           ],
           "eingabefelder": {
             "menge": { "einheit": "Arbeitsplätze (Anzahl)", "pflicht": true },
-            "arbeitstage": { "einheit": "Tage", "typ": "auswahl" },
+            "arbeitstage": { "einheit": "Stunden (Tage × 10h, Filmproduktion)", "typ": "auswahl" },
             "bezeichnung": { "typ": "freitext" },
             "notiz": { "typ": "freitext" }
           }

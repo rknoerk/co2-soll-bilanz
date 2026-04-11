@@ -118,7 +118,7 @@
           ],
           "eingabe": {
             "menge_einheit": "Anzahl Arbeitsplätze",
-            "parameter": ["Anzahl Monitore", "Arbeitstage"]
+            "parameter": ["Anzahl Monitore (Standard: 2 Monitore)", "Menge in Stunden (Tage × 10h)"]
           }
         },
         {
@@ -134,7 +134,7 @@
           ],
           "eingabe": {
             "menge_einheit": "Anzahl Arbeitsplätze",
-            "parameter": ["Arbeitstage"]
+            "parameter": ["Menge in Stunden (Tage × 10h)"]
           }
         },
         {
