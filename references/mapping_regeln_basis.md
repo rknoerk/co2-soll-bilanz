@@ -60,7 +60,7 @@ oder jede Kombination davon.
 |---|---|---|
 | Catering Set (€/Tag × Tage) | Essen > Vollverpflegung (ohne Frühstück) | Portionen = Drehtage × Personen am Set |
 | Catering Vorbereitungsperiode | Essen > Mahlzeit (standard) | Portionen = Vorbereitungstage × Personen |
-| Zusatzverpflegung / Diäten | Essen > Mahlzeit (einfach) | Aus Diäten-Tagen × Personen ableiten |
+| Zusatzverpflegung / Diäten (aus Reise-Sektion der Kalkulation) | Catering > Essen > Mahlzeit (einfach) | Aus Diäten-Tagen × Personen ableiten. Gehört in Sektor Catering, nicht Transport — auch wenn in der Kalkulation unter Reisekosten gelistet. |
 
 ### Materialeinsatz
 
