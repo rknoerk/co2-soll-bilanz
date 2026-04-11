@@ -39,7 +39,7 @@ oder jede Kombination davon.
 | Büroräume (Miete × Monate) | Büroräume > Ökostrom/Strom (Schätzung) | Mietdauer in Monaten, Fläche schätzen |
 | Rohschnitt + Feinschnitt (Tage) | Postproduktion Bild > Arbeitsplatz | Tage × 10h = Stunden (Filmproduktion). 1 Arbeitsplatz. Standardannahme: 2 Monitore. |
 | Mischung (Tage) | Postproduktion Ton > Sound (Schätzung) | Tage direkt |
-| Motivliste (m², Gebäudeart, Tage) | Motive > Ökostrom (Schätzung) | Pro Motiv ein Eintrag. Wenn keine Motivliste: Gebäudeart aus Drehplan ableiten, m² schätzen (50–150 m² je nach Raumtyp), Notiz "Fläche geschätzt". Zusätzlich "Motive: Wärmebedarf (pauschal)" wenn in der Heizperiode gedreht wird (Oktober–April). |
+| Motivliste (m², Gebäudeart, Tage) | Motive > Strom (Schätzung) | Pro Motiv ein Eintrag. Wenn keine Motivliste: Gebäudeart aus Drehplan ableiten, m² schätzen (50–150 m² je nach Raumtyp), Notiz "Fläche geschätzt". Zusätzlich "Motive: Wärmebedarf (pauschal)" wenn in der Heizperiode gedreht wird (Oktober–April). |
 
 ### Reise / Transport
 
@@ -82,6 +82,8 @@ Immer im Notizfeld dokumentieren.
 - Postproduktion: Ökostrom — immer Standardannahme (extern: Muss-Vorgabe II.4 / intern: Muss-Vorgabe II.1). Quelle "Arbeitsplatz (Ökostrom)" immer wählen.
 - Postproduktion Bild: 1 Schnittplatz, 2 Monitore, Tage × 10h = Stunden (Filmproduktion)
 - Postproduktion Ton: analog Bild, 1 Arbeitsplatz
+- Motive: konventioneller Strom — Standardannahme. Vermieter hat eigenen Stromanbieter,
+  kein Einfluss durch Produktion. Ökostrom nur wenn vom Vermieter schriftlich bestätigt.
 - Motive Wärme: nur erfassen wenn Dreh in Heizperiode (Oktober–April). Quelle: "Motive: Wärmebedarf (pauschal)". Pro Motiv separater Eintrag.
 - Büro: Ökostrom — Standardfall DE 2025+
 
