@@ -39,7 +39,7 @@ oder jede Kombination davon.
 | Büroräume (Miete × Monate) | Büroräume > Ökostrom/Strom (Schätzung) | Mietdauer in Monaten, Fläche schätzen |
 | Rohschnitt + Feinschnitt (Tage) | Postproduktion Bild > Arbeitsplatz | Tage × 10h = Stunden (Filmproduktion). 1 Arbeitsplatz. Standardannahme: 2 Monitore. |
 | Mischung (Tage) | Postproduktion Ton > Sound (Schätzung) | Tage direkt |
-| Motivliste (m², Gebäudeart, Tage) | Motive > Strom/Wärme je Motiv | Pro Motiv ein Eintrag |
+| Motivliste (m², Gebäudeart, Tage) | Motive > Strom/Wärme je Motiv | Pro Motiv ein Eintrag. Wenn keine Motivliste: Gebäudeart aus Drehplan ableiten, m² schätzen (50–150 m² je nach Raumtyp), Notiz "Fläche geschätzt". |
 
 ### Reise / Transport
 
