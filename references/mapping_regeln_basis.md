@@ -108,6 +108,7 @@ Immer im Notizfeld dokumentieren.
 - Teamgröße am Set (wenn nicht aus Stabliste ableitbar)
 - Anzahl Übernachtungsnächte (wenn nur Pauschalbudget)
 - Catering-Konzept: vegetarischer Tag? Externes Catering?
+- Drehdatum unbekannt: Heizperiode (Oktober–April)? → Motive: Wärmebedarf (pauschal) zusätzlich pro Motiv
 
 ### Prio 3 — Schätzwert reicht
 - Motiv-Flächen in m² (Schätzung nach Gebäudeart)
