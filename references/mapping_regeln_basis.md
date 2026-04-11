@@ -36,7 +36,8 @@ oder jede Kombination davon.
 |---|---|---|
 | Aggregat (Tage) | Technische Ausrüstung > Dieselaggregat | Drehtage mit Aggregat = Nutzungstage |
 | Drehtage ohne Aggregat | Technische Ausrüstung > Baustrom (Schätzung) | Drehtage gesamt minus Aggregat-Tage |
-| Büroräume (Miete × Monate) | Büroräume > Ökostrom/Strom (Schätzung) | Mietdauer in Monaten, Fläche schätzen |
+| Büroraummiete (€, Monate) | Büroräume > Ökostrom/Strom (Schätzung) | Mietdauer in Monaten, Fläche aus Mietvertrag oder schätzen. Standardannahme: Ökostrom (Muss-Vorgabe II.1). |
+| Homeoffice alle Beteiligten | Büroräume > Homeoffice | Arbeitstage aller Personen die für die Produktion im Homeoffice arbeiten (Produzentin, Regie, Aufnahmeleitung, Green Consultant etc.). Steht nie in der Kalkulation — immer aktiv erfragen und eigene Tage als Green Consultant manuell ergänzen. |
 | Rohschnitt + Feinschnitt (Tage) | Postproduktion Bild > Arbeitsplatz | Tage × 10h = Stunden (Filmproduktion). 1 Arbeitsplatz. Standardannahme: 2 Monitore. |
 | Mischung (Tage) | Postproduktion Ton > Sound (Schätzung) | Tage direkt |
 | Motivliste (m², Gebäudeart, Tage) | Motive > Strom (Schätzung) | Pro Motiv ein Eintrag. Wenn keine Motivliste: Gebäudeart aus Drehplan ableiten, m² schätzen (50–150 m² je nach Raumtyp), Notiz "Fläche geschätzt". Zusätzlich "Motive: Wärmebedarf (pauschal)" wenn in der Heizperiode gedreht wird (Oktober–April). |
@@ -113,6 +114,7 @@ Immer im Notizfeld dokumentieren.
 - Anzahl Übernachtungsnächte (wenn nur Pauschalbudget)
 - Catering-Konzept: vegetarischer Tag? Externes Catering?
 - Drehdatum unbekannt: Heizperiode (Oktober–April)? → Motive: Wärmebedarf (pauschal) zusätzlich pro Motiv
+- Büroräume: Produktionsbüro vorhanden (Fläche, Mietdauer)? Homeoffice-Tage für alle Beteiligten (Produzentin, Regie, Aufnahmeleitung etc.) — immer fragen, steht nie in der Kalkulation. Green Consultant eigene Tage selbst ergänzen.
 
 ### Prio 3 — Schätzwert reicht
 - Motiv-Flächen in m² (Schätzung nach Gebäudeart)
