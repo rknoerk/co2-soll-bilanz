@@ -82,8 +82,9 @@ Immer im Notizfeld dokumentieren.
 - Postproduktion: Ökostrom — immer Standardannahme (extern: Muss-Vorgabe II.4 / intern: Muss-Vorgabe II.1). Quelle "Arbeitsplatz (Ökostrom)" immer wählen.
 - Postproduktion Bild: 1 Schnittplatz, 2 Monitore, Tage × 10h = Stunden (Filmproduktion)
 - Postproduktion Ton: analog Bild, 1 Arbeitsplatz
-- Motive: konventioneller Strom — Standardannahme. Vermieter hat eigenen Stromanbieter,
-  kein Einfluss durch Produktion. Ökostrom nur wenn vom Vermieter schriftlich bestätigt.
+- Motive: konventioneller Strom — Standardannahme. Begründung: "Ist nicht eindeutig zu
+  klären ob zertifizierter Ökostromtarif, muss von konventionellem Tarif ausgegangen
+  werden" (Leitlinien CO₂-Bilanzierung). Ökostrom nur wenn vom Vermieter bestätigt.
 - Motive Wärme: nur erfassen wenn Dreh in Heizperiode (Oktober–April). Quelle: "Motive: Wärmebedarf (pauschal)". Pro Motiv separater Eintrag.
 - Büro: Ökostrom — Standardfall DE 2025+
 
