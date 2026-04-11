@@ -24,6 +24,7 @@ oder jede Kombination davon.
 | Länge [min] | Kalkulation Deckblatt |
 | Drehtage | Kalkulation Deckblatt, Herstellungsplan |
 | Postproduktion (Tage) | Kalkulation (Rohschnitt + Feinschnitt + Mischung) |
+| Herstellungskosten brutto [EUR] | Kalkulation Gesamtsumme (Position G / Zwischensumme D). Nur ganze Zahlen, keine Trennzeichen. |
 
 ---
 
