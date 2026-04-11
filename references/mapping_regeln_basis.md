@@ -146,3 +146,23 @@ Gilt für alle Felder die direkt in der Rechner-Maske als Dropdown existieren.
 
 Ausgabe-Format Eingabeliste:
 | Klimaktiv-Feld | Bezeichnung | Wert | Einheit | Notiz (Quelle / Rechenweg / Annahme) |
+
+---
+
+## 5. Qualitätssicherung Kalkulations-Mapping
+
+**Positionsnummern immer am Original verifizieren.**
+Niemals Positionsnummern aus dem Gedächtnis oder aus früheren Abschnitten übernehmen —
+immer direkt aus dem vorliegenden Dokument ablesen.
+
+**Leere Positionen bleiben leer.**
+Wenn eine Position keinen Wert hat, wird sie nicht geschätzt oder aus benachbarten
+Positionen abgeleitet. Eintrag: ⚠️ offen.
+
+**Querprüfung gegen Sektionssummen.**
+Nach dem Mapping jeder Sektion: Summe der erfassten Positionen gegen die
+ausgewiesene Sektionssumme prüfen. Abweichung → Positions-Mapping nochmal prüfen.
+
+**Tagessätze ≠ km-Geld.**
+Fahrzeug-Tagessätze (€/Tag) können nicht auf km umgerechnet werden,
+auch nicht wenn die Fußnote "incl. Km-Geld" enthält.
