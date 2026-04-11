@@ -79,6 +79,7 @@ Immer im Notizfeld dokumentieren.
 
 **Energie:**
 - Stromversorgung Set: Baustrom, durchschnittlicher Verbrauch — wenn kein Aggregat in Kalkulation
+- Postproduktion: Ökostrom — immer Standardannahme (extern: Muss-Vorgabe II.4 / intern: Muss-Vorgabe II.1). Quelle "Arbeitsplatz (Ökostrom)" immer wählen.
 - Postproduktion Bild: 1 Schnittplatz, 2 Monitore, Tage × 10h = Stunden (Filmproduktion)
 - Postproduktion Ton: analog Bild, 1 Arbeitsplatz
 - Büro: Ökostrom — Standardfall DE 2025+
@@ -106,7 +107,6 @@ Immer im Notizfeld dokumentieren.
 - Teamgröße am Set (wenn nicht aus Stabliste ableitbar)
 - Anzahl Übernachtungsnächte (wenn nur Pauschalbudget)
 - Catering-Konzept: vegetarischer Tag? Externes Catering?
-- Postproduktion: Ökostrom im Schneideraum?
 
 ### Prio 3 — Schätzwert reicht
 - Motiv-Flächen in m² (Schätzung nach Gebäudeart)
