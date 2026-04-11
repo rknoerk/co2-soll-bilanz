@@ -115,11 +115,17 @@ Immer im Notizfeld dokumentieren.
 
 ---
 
-## 4. Notiz-Konventionen
+## 4. Bezeichnung und Notiz
 
-Format: `[Quelle/Annahme]: [kurze Begründung]`
+Jeder Rechner-Eintrag hat zwei Felder:
 
+**Bezeichnung** — aussagekräftiger Name des Eintrags. Was ist das?
+Beispiele: "Roh- und Feinschnitt", "Flüge BG-Dreh", "Set-Catering DE", "Produktionsfahrzeug DE"
+
+**Notiz** — Quelle, Rechenweg, Annahme (nur wenn relevant).
+Format: Quelle + Rechenweg + Annahme (was zutrifft)
 Beispiele:
-- `Kalkulation Pos. 273: Reisekosten Inland pauschal, Bahn/PKW-Split geschätzt`
+- `Rohschnitt 10 + Feinschnitt 5 = 15 Tage × 10h. Nico Hertel (Berlin). Annahme: Ökostrom`
+- `Kalkulation Pos. 154: 10 DT × 50€. 500 ÷ 0,20€/km = 2.500 km. Annahme: Bahn`
+- `Kalkulation Pos. 140: 11 DT × 150€ = 1.650€. 1.650 ÷ 0,30€/km = 5.500 km. Diesel Euro 6`
 - `Schätzung: kein Aggregat in Kalkulation → Baustrom angenommen`
-- `Rückfrage offen: Ökostrom Set nicht bestätigt → konventionell angenommen`
