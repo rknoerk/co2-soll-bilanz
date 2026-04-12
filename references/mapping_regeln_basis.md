@@ -89,6 +89,7 @@ Immer im Notizfeld dokumentieren.
   werden" (Leitlinien CO₂-Bilanzierung). Ökostrom nur wenn vom Vermieter bestätigt.
 - Motive Wärme: nur erfassen wenn Dreh in Heizperiode (Oktober–April). Quelle: "Motive: Wärmebedarf (pauschal)". Pro Motiv separater Eintrag.
 - Akkubetrieb Außendreh (Tageslicht): kein Energieeintrag erforderlich. Als Dokumentation in der Bilanz vermerken.
+- Homeoffice: Quelle "Homeoffice (Arbeitstage)" — keine Ökostrom-Option verfügbar. Ökostrom-Status der Mitarbeitenden ist für dieses Feld nicht relevant.
 - Büro: Ökostrom — Standardfall DE 2025+
 
 **Transport:**
