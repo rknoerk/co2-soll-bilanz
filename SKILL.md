@@ -93,10 +93,25 @@ Sektor > Thema > Quelle
 Menge: [Zahl] [Einheit]
 Notiz: [Annahme oder Quelle]
 
+Jede offene Stelle (Schätzannahme oder fehlender Wert) in der Eingabeliste erhält
+einen Verweis auf die zugehörige Rückfragennummer aus Ausgabe C (z.B. "→ C3").
+Der Sektions-Header erhält ein Warnsignal (z.B. "⚠") wenn mindestens eine
+offene Stelle im Sektor existiert.
+
 **Ausgabe C: Rückfragen an Produzentin**
 Priorisiert (Prio 1/2/3). Nur was wirklich nötig ist.
 Fehlende Stammdaten immer als Prio 1.
 Jede Frage mit kurzem Kontext warum relevant.
+
+Jede Rückfrage erhält eine eindeutige Referenznummer im Format C1, C2, C3 ...
+Nummerierung fortlaufend über alle Prioritäten hinweg, aufsteigend nach Prio
+(Prio-1-Fragen zuerst).
+Die Nummer wird konsistent verwendet: in Ausgabe B (Verweise), in Ausgabe C
+(Tabellenspalte "Nr.") und im Artefakt-Dateinamen wenn exportiert.
+
+Zweck: Produzentin kann Antworten direkt per Referenznummer zurückmelden
+(z.B. "C1: Ökostrom, C3: Diesel"). Kein Interpretationsspielraum welche
+Frage gemeint ist.
 
 ### Schritt 5 — Debrief
 
