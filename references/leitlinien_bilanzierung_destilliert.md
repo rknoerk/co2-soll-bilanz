@@ -45,9 +45,12 @@ Für die SOLL-Bilanz gilt: lieber grob und vollständig als präzise und lücken
 `Portionen = Durchschnittliche Personenanzahl pro Drehtag × Drehtage`
 Bereits bekannte vegetarische Tage können berücksichtigt werden.
 
-**Kostüm-Miete:**
-Wird wie Kauf bilanziert, aber mit reduziertem Faktor (ca. 10% des Kaufpreises).
-Repräsentiert Anteil der Anschaffung, Pflege und Lagerung.
+**Kostüm-Miete (Fundus):**
+Eingabe = voller Mietpreis in €. Rechner berechnet intern 10% des
+Mietwertes als Reinigungsemissionen (Quelle: P. Gassmann 2025).
+Second Hand Kauf: analog — 10% des Kaufpreises.
+Maskenfelder: Wäschetrocknung (Wäschetrockner / Wäscheleine) + Waschmittel
+(konventionell / biologisch). Standardannahme: Wäschetrockner, konventionell.
 
 ---
 
