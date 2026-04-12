@@ -48,11 +48,40 @@ Notiz.
 
 ---
 
-## Voraussetzungen
+## Installation
+
+### Voraussetzungen
 
 - Claude Pro oder Team Account
-- Claude Desktop
-- Dieses Repo als Skill-Verzeichnis eingebunden
+- Claude Desktop App
+
+### Option A: Git clone (empfohlen)
+
+```bash
+git clone https://github.com/rknoerk/co2-soll-bilanz.git
+```
+
+In Claude Desktop: **Settings → Custom Skills → Add Skill** → Pfad zum geklonten Repo angeben
+(z.B. `~/Code/co2-soll-bilanz`).
+
+Updates holen:
+```bash
+cd co2-soll-bilanz && git pull
+```
+
+### Option B: ZIP-Download (ohne Git)
+
+1. Auf GitHub oben rechts **Code → Download ZIP** klicken
+2. ZIP entpacken
+3. In Claude Desktop: **Settings → Custom Skills → Add Skill** → Pfad zum entpackten Ordner angeben
+
+Hinweis: Bei dieser Variante gibt es keine automatischen Updates. Für neue Versionen
+muss die ZIP erneut heruntergeladen werden.
+
+### Erster Test
+
+Im Chat eingeben: *"Ich habe eine Kalkulation für einen Kurzfilm — erstelle eine Soll-Bilanz."*
+Der Skill sollte mit Schritt 0 (Arbeitsweise festlegen) starten.
 
 ---
 
