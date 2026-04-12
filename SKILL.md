@@ -87,6 +87,14 @@ Prüfe für jeden der 4 Sektoren (Energie, Reise/Transport, Catering, Materialei
 **Ausgabe A: Stammdaten**
 Tabellarisch, direkt in Klimaktiv-Rechner übertragbar.
 
+Jedes Stammdaten-Feld das einen offenen Punkt hat oder von einer Rückfrage
+abhängt, erhält einen Verweis auf die zugehörige Rückfragennummer aus Ausgabe C
+(z.B. "15 Tage (unvollständig) → C4").
+Felder die noch komplett unbekannt sind: Wert "⚠ offen → Cx".
+Gilt für alle Felder in Ausgabe A — nicht nur Sendedatum und Herstellungskosten,
+sondern auch z.B. Postproduktion (Tage), Drehtage, Drehzeitraum wenn diese
+zum Zeitpunkt der Bilanz noch nicht vollständig feststehen.
+
 **Ausgabe B: Eingabeliste CO₂-Daten**
 Format pro Eintrag:
 Sektor > Thema > Quelle
