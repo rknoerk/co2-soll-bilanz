@@ -48,6 +48,15 @@ Eingabe als ganze Zahl ohne Trennzeichen (Rechner-Vorgabe).
 | Homeoffice alle Beteiligten | Büroräume > Homeoffice | Arbeitstage aller Personen die für die Produktion im Homeoffice arbeiten (Produzentin, Regie, Aufnahmeleitung, Green Consultant etc.). Steht nie in der Kalkulation — immer aktiv erfragen und eigene Tage als Green Consultant manuell ergänzen. |
 | Rohschnitt + Feinschnitt (Tage) | Postproduktion Bild > Arbeitsplatz | Tage × 10h = Stunden (Filmproduktion). 1 Arbeitsplatz. Standardannahme: 2 Monitore. |
 | Mischung (Tage) | Postproduktion Ton > Sound (Schätzung) | Tage direkt |
+
+**Beistellungen in der Postproduktion:**
+Bevor für eine offene Postpro-Position eine neue Rückfrage angelegt wird,
+prüfen ob diese bereits als Beistellung in den Unterlagen ausgewiesen ist
+(Kalkulation, Protokoll o.ä.) und ob dafür bereits eine Rückfrage existiert
+(z.B. C6 für Grading/Grafik).
+Keine doppelten Rückfragen anlegen — auf bestehende Cx verweisen.
+Beispiel: Grading TBD → nicht neue Rückfrage, sondern → C6 wenn Beistellung
+bereits erfasst.
 | Motivliste (m², Gebäudeart, Tage) | Motive > Strom (Schätzung) | Pro Motiv ein Eintrag. Wenn keine Motivliste: Gebäudeart aus Drehplan ableiten, m² schätzen (50–150 m² je nach Raumtyp), Notiz "Fläche geschätzt". Zusätzlich "Motive: Wärmebedarf (pauschal)" wenn in der Heizperiode gedreht wird (Oktober–April). |
 
 ### Reise / Transport
