@@ -82,7 +82,16 @@ bereits erfasst.
 | Kalkulations-Position | Klimaktiv-Feld | Regel |
 |---|---|---|
 | Reisekosten Inland (€) | Personentransporte > Bahn oder PKW | Art aus Kontext ableiten, Notiz setzen |
-| Km-Geld (€) | Personentransporte > Pkw Distanzschätzung | Betrag ÷ Erstattungssatz = km. Kraftstofftyp ist separater Eintrag. Nur anwenden wenn echtes km-Geld ausgewiesen — Fahrzeug-Tagessätze sind kein km-Geld und können nicht auf km umgerechnet werden. |
+| Km-Geld (€) | Personentransporte > Pkw Distanzschätzung | Betrag ÷ Erstattungssatz = km. Nur anwenden wenn echtes km-Geld ausgewiesen — Fahrzeug-Tagessätze sind kein km-Geld und können nicht auf km umgerechnet werden. |
+
+**Pkw (Distanzschätzung) — Kraftstofftyp irrelevant:**
+Wenn die Quelle "Pkw (Distanzschätzung)" gewählt wird, verwendet der
+Klimaktiv-Rechner automatisch einen gewichteten Mix aus Benzin, Diesel,
+Elektro und Hybrid. Der Kraftstofftyp muss in diesem Fall NICHT erfragt
+werden — keine Rückfrage C notwendig.
+Kraftstofftyp nur relevant wenn eine spezifische Quelle gewählt wird
+(z.B. "Diesel", "Benzin", "Strom") und der tatsächliche Antrieb bekannt ist.
+Standardfall SOLL-Bilanz: immer "Pkw (Distanzschätzung)" verwenden.
 | Benzin/Diesel (€) | Personentransporte > Diesel/Benzin Kosten | Direktübernahme. Bei Fahrzeug-Tagessätzen mit Fußnote "*incl. Km-Geld und Benzin": Kraftstoffanteil nur übernehmen wenn explizit ausgewiesen. |
 | Taxi / Shuttle (€) | Personentransporte > Taxikosten | Direktübernahme in €. Kein Kraftstofftyp erforderlich. |
 | Flüge Ausland (Personen) | Flugreisen > Mittelstrecke pauschal | 1 Flug im Rechner = Roundtrip (Hin+Rück). Anzahl Personen = Anzahl Flüge. |
