@@ -20,6 +20,8 @@ Ausgabe:
 
 Grundlage: Vereinfachte SOLL-Erfassung gemäß Kriterium I.3 der Ökologischen Standards.
 
+![Workflow-Übersicht](workflow-overview.svg)
+
 ---
 
 ## Voraussetzungen

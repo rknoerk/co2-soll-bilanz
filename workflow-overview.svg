@@ -1,0 +1,114 @@
+<svg width="900" height="660" viewBox="0 0 900 660" xmlns="http://www.w3.org/2000/svg"
+     font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 Z" fill="#9ca3af"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="660" fill="white"/>
+
+  <!-- ─── WAS REINKOMMT ─── -->
+  <text x="40" y="22" font-size="11" font-weight="500" fill="#9ca3af">WAS REINKOMMT</text>
+
+  <!-- KATÝ -->
+  <rect x="40" y="32" width="395" height="155" rx="8" fill="white" stroke="#e5e7eb" stroke-width="0.8"/>
+  <rect x="54" y="46" width="180" height="17" rx="8" fill="#dbeafe"/>
+  <text x="144" y="55" font-size="10" font-weight="500" fill="#1e40af" text-anchor="middle" dominant-baseline="central">Kurzfilm · Koproduktion DE/BG</text>
+  <text x="54" y="78" font-size="14" font-weight="500" fill="#111827">KATÝ</text>
+  <text x="54" y="96" font-size="11" fill="#9ca3af">Format</text>
+  <text x="115" y="96" font-size="12" fill="#374151">11 Drehtage · 20 Min. · Festivalkino</text>
+  <text x="54" y="113" font-size="11" fill="#9ca3af">Eingang</text>
+  <text x="115" y="113" font-size="12" fill="#374151">SESAM-Kalkulation, Stabliste, Drehplan, E-Mails</text>
+  <text x="54" y="130" font-size="11" fill="#9ca3af">Besonders</text>
+  <text x="115" y="130" font-size="12" fill="#374151">Sofia: Akkus · Hannover: Baustrom</text>
+  <text x="115" y="146" font-size="12" fill="#374151">vegane Setküche · Koproduktion DE/BG</text>
+
+  <!-- Hamburg schmeckt -->
+  <rect x="465" y="32" width="395" height="155" rx="8" fill="white" stroke="#e5e7eb" stroke-width="0.8"/>
+  <rect x="479" y="46" width="196" height="17" rx="8" fill="#dcfce7"/>
+  <text x="577" y="55" font-size="10" font-weight="500" fill="#166534" text-anchor="middle" dominant-baseline="central">EB-Doku · NDR Auftragsproduktion</text>
+  <text x="479" y="78" font-size="14" font-weight="500" fill="#111827">So schmeckt Hamburg</text>
+  <text x="479" y="96" font-size="11" fill="#9ca3af">Format</text>
+  <text x="540" y="96" font-size="12" fill="#374151">14 Drehtage · 58,5 Min. · TV (NDR)</text>
+  <text x="479" y="113" font-size="11" fill="#9ca3af">Eingang</text>
+  <text x="540" y="113" font-size="12" fill="#374151">FFA-Kalkulation (2 Seiten), keine Stabliste</text>
+  <text x="479" y="130" font-size="11" fill="#9ca3af">Besonders</text>
+  <text x="540" y="130" font-size="12" fill="#374151">EB-Team, Akkus statt Baustrom, Drohne</text>
+  <text x="540" y="146" font-size="12" fill="#374151">NDR-Beistellungen zunächst unklar</text>
+
+  <!-- Pfeil 1 -->
+  <line x1="450" y1="195" x2="450" y2="214" stroke="#d1d5db" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ─── DATENAUFBEREITUNG ─── -->
+  <text x="40" y="223" font-size="11" font-weight="500" fill="#9ca3af">DATENAUFBEREITUNG — ÜBERSETZUNGSLEISTUNG</text>
+
+  <!-- Schritt 1 -->
+  <rect x="40" y="233" width="260" height="82" rx="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="0.8"/>
+  <text x="54" y="249" font-size="10" font-weight="500" fill="#9ca3af">SCHRITT 1</text>
+  <text x="54" y="267" font-size="14" font-weight="500" fill="#111827">Lesen</text>
+  <text x="54" y="284" font-size="12" fill="#6b7280">Kalkulation, Stabliste, E-Mails</text>
+  <text x="54" y="299" font-size="12" fill="#6b7280">egal in welchem Format</text>
+
+  <line x1="304" y1="274" x2="316" y2="274" stroke="#d1d5db" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Schritt 2 -->
+  <rect x="320" y="233" width="260" height="82" rx="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="0.8"/>
+  <text x="334" y="249" font-size="10" font-weight="500" fill="#9ca3af">SCHRITT 2</text>
+  <text x="334" y="267" font-size="14" font-weight="500" fill="#111827">Übersetzen</text>
+  <text x="334" y="284" font-size="12" fill="#6b7280">€ × Tage → km, Nächte, Portionen</text>
+  <text x="334" y="299" font-size="12" fill="#6b7280">nach hinterlegten Regeln</text>
+
+  <line x1="584" y1="274" x2="596" y2="274" stroke="#d1d5db" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Schritt 3 -->
+  <rect x="600" y="233" width="260" height="82" rx="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="0.8"/>
+  <text x="614" y="249" font-size="10" font-weight="500" fill="#9ca3af">SCHRITT 3</text>
+  <text x="614" y="267" font-size="14" font-weight="500" fill="#111827">Lücken markieren</text>
+  <text x="614" y="284" font-size="12" fill="#6b7280">Bekannt / Schätzwert / Rückfrage</text>
+  <text x="614" y="299" font-size="12" fill="#6b7280">sauber getrennt dokumentiert</text>
+
+  <!-- Beispiel -->
+  <rect x="40" y="325" width="820" height="38" rx="6" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="0.8"/>
+  <text x="450" y="344" font-size="12" fill="#374151" text-anchor="middle" dominant-baseline="central">KATÝ-Beispiel: Reisekosten Inland (500 €) ÷ 0,20 €/km = 2.500 Bahn-Personenkm  (Regel: DB-Fernverkehr Daumenregel)</text>
+
+  <!-- Pfeil 2 -->
+  <line x1="450" y1="371" x2="450" y2="390" stroke="#d1d5db" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ─── HUMAN IN THE LOOP ─── -->
+  <text x="40" y="400" font-size="11" font-weight="500" fill="#9ca3af">HUMAN IN THE LOOP — RÜCKFRAGEN PRIORISIERT</text>
+
+  <rect x="40" y="412" width="820" height="88" rx="8" fill="#fffbeb" stroke="#fbbf24" stroke-width="0.8"/>
+  <text x="56" y="430" font-size="11" font-weight="500" fill="#92400e">Prio 1 · großer CO₂-Impact</text>
+  <text x="56" y="446" font-size="12" fill="#78350f">Stromquelle Set, Flugstrecken, E-Fahrzeuge</text>
+  <text x="466" y="430" font-size="11" font-weight="500" fill="#92400e">Prio 2 · mittlerer Impact</text>
+  <text x="466" y="446" font-size="12" fill="#78350f">Teamgröße, Übernachtungen, Catering-Konzept</text>
+  <line x1="56" y1="458" x2="844" y2="458" stroke="#fde68a" stroke-width="0.5"/>
+  <text x="56" y="474" font-size="11" font-weight="500" fill="#374151">KATÝ: Prio 1+2 alle beantwortet ✓</text>
+  <text x="56" y="489" font-size="12" fill="#6b7280">Noch offen: Motiv-Flächen in m² (Prio 3)</text>
+  <text x="466" y="474" font-size="11" font-weight="500" fill="#374151">Hamburg: Baustrom ✓</text>
+  <text x="466" y="489" font-size="12" fill="#6b7280">Offen: Büro, Catering, Beistellungen, Ökostrom</text>
+
+  <!-- Pfeil 3 -->
+  <line x1="450" y1="508" x2="450" y2="527" stroke="#d1d5db" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ─── ERGEBNIS ─── -->
+  <text x="40" y="537" font-size="11" font-weight="500" fill="#9ca3af">ERGEBNIS</text>
+
+  <!-- Ausgabe A -->
+  <rect x="40" y="548" width="395" height="82" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="0.8"/>
+  <text x="54" y="564" font-size="10" font-weight="500" fill="#1e40af">AUSGABE A</text>
+  <text x="54" y="582" font-size="14" font-weight="500" fill="#111827">Eingabeliste für Klimaktiv-Rechner</text>
+  <text x="54" y="599" font-size="12" fill="#374151">Alle 4 Sektoren · Werte + Rechenweg je Zeile</text>
+  <text x="54" y="615" font-size="12" fill="#374151">direkt übertragbar</text>
+
+  <!-- Ausgabe B -->
+  <rect x="465" y="548" width="395" height="82" rx="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="0.8"/>
+  <text x="479" y="564" font-size="10" font-weight="500" fill="#6b7280">AUSGABE B</text>
+  <text x="479" y="582" font-size="14" font-weight="500" fill="#111827">Rückfragen-Template an Produzentin</text>
+  <text x="479" y="599" font-size="12" fill="#374151">Priorisiert nach CO₂-Impact · mit Begründung</text>
+  <text x="479" y="615" font-size="12" fill="#374151">direkt verschickbar</text>
+
+</svg>
