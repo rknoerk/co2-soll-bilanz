@@ -77,7 +77,7 @@ geschätzt sondern direkt in Ausgabe C (Rückfragen) aufgenommen — Prio 1.
 
 ### Schritt 3 — CO₂-Daten extrahieren
 Lies `mapping_regeln_basis.md` + Format-Regeldatei. Wende Übersetzungsregeln an.
-Prüfe für jeden der 4 Sektoren (Energie, Reise/Transport, Catering, Materialeinsatz):
+Prüfe für jeden der 4 Handlungsfelder (Energie, Reise/Transport, Catering, Materialeinsatz):
 - Direkt ableitbar → Eingabeliste
 - Schätzbar mit Standardannahme → Eingabeliste + Notiz
 - Braucht Rückfrage → Rückfragen-Template
@@ -97,14 +97,14 @@ zum Zeitpunkt der Bilanz noch nicht vollständig feststehen.
 
 **Ausgabe B: Eingabeliste CO₂-Daten**
 Format pro Eintrag:
-Sektor > Thema > Quelle
+Handlungsfeld > Thema > Quelle
 Menge: [Zahl] [Einheit]
 Notiz: [Annahme oder Quelle]
 
 Jede offene Stelle (Schätzannahme oder fehlender Wert) in der Eingabeliste erhält
 einen Verweis auf die zugehörige Rückfragennummer aus Ausgabe C (z.B. "→ C3").
 Der Sektions-Header erhält ein Warnsignal (z.B. "⚠") wenn mindestens eine
-offene Stelle im Sektor existiert.
+offene Stelle im Handlungsfeld existiert.
 
 **Ausgabe C: Rückfragen an Produzentin**
 Priorisiert (Prio 1/2/3). Nur was wirklich nötig ist.

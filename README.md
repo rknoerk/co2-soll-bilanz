@@ -15,7 +15,7 @@ an die Produzentin für alles was noch fehlt.
 
 Ausgabe:
 - Stammdaten für den Klimaktiv-Rechner
-- Eingabeliste pro Sektor (Energie / Reise+Transport / Catering / Materialeinsatz)
+- Eingabeliste pro Handlungsfeld (Energie / Reise+Transport / Catering / Materialeinsatz)
 - Rückfragen-Template (Prio 1/2/3)
 
 Grundlage: Vereinfachte SOLL-Erfassung gemäß Kriterium I.3 der Ökologischen Standards.
