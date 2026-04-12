@@ -181,3 +181,9 @@ Beispiele:
 - Drehort steht nicht in der Pos. → nicht in Bezeichnung, sondern Notiz: "Annahme: DE-Dreh"
 - Kraftstofftyp nicht genannt → nicht in Bezeichnung, Notiz: "Annahme: Diesel"
 - Personenzahl geschätzt → Notiz: "Personenzahl geschätzt"
+
+**Wo Geld fließt, entsteht CO₂ — aber Produzentin hat Entscheidungshoheit.**
+Grundsatz: Jede kalkulierte Position die reale Aktivität repräsentiert wird bilanziert.
+Ausnahme: Wenn die Produzentin explizit bestätigt dass eine Position ein finanzieller
+Puffer ohne reale Aktivität ist, wird sie nicht bilanziert.
+Entscheidung und Begründung im Notizfeld dokumentieren.
