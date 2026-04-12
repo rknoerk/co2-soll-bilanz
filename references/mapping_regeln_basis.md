@@ -50,7 +50,7 @@ oder jede Kombination davon.
 | Km-Geld (€) | Personentransporte > Pkw Distanzschätzung | Betrag ÷ Erstattungssatz = km. Kraftstofftyp ist separater Eintrag. Nur anwenden wenn echtes km-Geld ausgewiesen — Fahrzeug-Tagessätze sind kein km-Geld und können nicht auf km umgerechnet werden. |
 | Benzin/Diesel (€) | Personentransporte > Diesel/Benzin Kosten | Direktübernahme. Bei Fahrzeug-Tagessätzen mit Fußnote "*incl. Km-Geld und Benzin": Kraftstoffanteil nur übernehmen wenn explizit ausgewiesen. |
 | Taxi / Shuttle (€) | Personentransporte > Taxikosten | Direktübernahme in €. Kein Kraftstofftyp erforderlich. |
-| Flüge Ausland (Anzahl) | Flugreisen > Pauschal oder Detailliert | Streckenklasse aus Drehortstrecke |
+| Flüge Ausland (Personen) | Flugreisen > Mittelstrecke pauschal | 1 Flug im Rechner = Roundtrip (Hin+Rück). Anzahl Personen = Anzahl Flüge. |
 | Hotelkosten Inland (€) | Übernachtung > Hotel DE | Nächte aus Personen × Drehtage ableiten |
 | Hotelkosten Ausland (€) | Übernachtung > Hotel Europa/International | Analog Inland |
 | Fahrzeugtransporte LKW (€) | Warentransport > Diesel Kosten | Kraftstoffanteil schätzen, Notiz |
