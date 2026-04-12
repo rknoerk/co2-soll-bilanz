@@ -14,8 +14,8 @@ oder jede Kombination davon.
 | Feld | Wo typischerweise zu finden |
 |---|---|
 | Titel der Produktion | Deckblatt Kalkulation, Herstellungsplan |
-| Jahr der Produktion | Kalkulation Deckblatt |
-| Jahr der Förderentscheidung | Förder-E-Mail, Kalkulation |
+| Jahr der Produktion | Kalkulation Deckblatt. ⚠️ Kann NICHT mehr geändert werden nachdem SOLL- oder IST-Daten erfasst wurden — muss beim Anlegen der Produktion korrekt gesetzt sein. CSV-Export-Hinweis: die Spalte "Jahr der Produktion" im CSV-Export enthält das Jahr der Förderentscheidung, nicht das Produktionsjahr. |
+| Jahr der Förderentscheidung | Förder-E-Mail, Kalkulation. CSV-Export: wird unter der Spalte "Jahr der Produktion" exportiert. |
 | Jahr der Ausstrahlung/Aufführung | Herstellungsplan, Sendetermin |
 | Genre | Kalkulation Deckblatt |
 | Herstellungsverfahren | Kalkulation (On location / Studio / Mix) |
