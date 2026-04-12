@@ -22,6 +22,14 @@ Ergänzungen zur Basis. Gilt für: Dokumentarfilm, Reportage, Magazin, Doku-Seri
 - Fast immer Baustrom — kein Aggregat
 - Viele kleine Motive → pro Motiv separater Eintrag wenn Motivliste vorliegt
 
+**EB-Dreh / kleines Besteck:**
+Bei kleinen Doku-Teams (EB-Dreh, 2–4 Personen) nicht automatisch Baustrom
+annehmen. Akkus können im Hotel, Büro oder privat geladen werden — dann
+entfällt Baustrom am Set vollständig.
+Stattdessen als Prio-1-Rückfrage formulieren:
+"Wird am Set Baustrom genutzt? Wenn ja: wofür (Beleuchtung, Catering, Akkus)?"
+Erst nach Bestätigung Baustrom-Eintrag anlegen.
+
 **Transport:**
 - PKW-Anteil hoch: Kilometergelder genau auswerten
 - Locationscouts als eigene Position wenn ausgewiesen
