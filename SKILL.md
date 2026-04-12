@@ -1,4 +1,3 @@
-<!-- sync-test: hello world --->
 ---
 name: co2-soll-bilanz
 description: >
