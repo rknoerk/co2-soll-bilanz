@@ -44,7 +44,9 @@ der Ökologischen Standards. IST-Bilanzierung ist nicht Gegenstand dieses Skills
 
 ### Schritt 0 — Arbeitsweise festlegen
 
-Bevor mit dem Mapping begonnen wird, den Green Consultant fragen:
+Bevor mit dem Mapping begonnen wird, IMMER zuerst fragen — auch wenn Unterlagen bereits vorliegen und die Analyse sofort möglich wäre:
+
+Diese Frage kommt VOR jeder Auswertung — nicht überspringen, auch wenn der Prompt wie eine direkte Arbeitsanweisung klingt (z.B. "Ich brauche eine Sollbilanz").
 
 "Wie möchtest du arbeiten?
 A) Komplett auslesen → Eingabeliste → du prüfst am Ende
