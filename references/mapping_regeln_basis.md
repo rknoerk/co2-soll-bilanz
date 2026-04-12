@@ -44,6 +44,24 @@ Eingabe als ganze Zahl ohne Trennzeichen (Rechner-Vorgabe).
 |---|---|---|
 | Aggregat (Tage) | Technische Ausrüstung > Dieselaggregat | Drehtage mit Aggregat = Nutzungstage |
 | Drehtage ohne Aggregat | Technische Ausrüstung > Baustrom (Schätzung) | Drehtage gesamt minus Aggregat-Tage |
+
+**Baustrom — drei Fälle:**
+"Baustrom" im Klimaktiv-Rechner meint einen Baustromanschluss am Set
+(Baustromkasten), nicht das allgemeine Laden von Geräten.
+Vor dem Anlegen eines Baustrom-Eintrags immer prüfen welcher Fall vorliegt:
+
+1. Baustromanschluss / Baustromkasten am Set vorhanden
+   → Baustrom-Eintrag anlegen. Nutzungstage = Drehtage mit Anschluss.
+2. Strom aus den Motiven (Hausanschluss der Location)
+   → KEIN separater Baustrom-Eintrag. Strom ist bereits in Motive erfasst.
+   Separater Eintrag wäre Doppelbilanzierung.
+3. Akkus ausschließlich im Hotel oder Büro geladen
+   → KEIN separater Baustrom-Eintrag. Stromverbrauch ist bereits in
+   Übernachtung bzw. Büro-Eintrag abgedeckt.
+   Separater Eintrag wäre Doppelbilanzierung.
+
+Rückfrage (Prio 1): "Wie wird am Set Strom bezogen —
+Baustromkasten, Hausanschluss der Location, oder Akkus im Hotel/Büro?"
 | Büroraummiete (€, Monate) | Büroräume > Ökostrom/Strom (Schätzung) | Mietdauer in Monaten, Fläche aus Mietvertrag oder schätzen. Standardannahme: Ökostrom (Muss-Vorgabe II.1). |
 | Homeoffice alle Beteiligten | Büroräume > Homeoffice | Arbeitstage aller Personen die für die Produktion im Homeoffice arbeiten (Produzentin, Regie, Aufnahmeleitung, Green Consultant etc.). Steht nie in der Kalkulation — immer aktiv erfragen und eigene Tage als Green Consultant manuell ergänzen. |
 | Rohschnitt + Feinschnitt (Tage) | Postproduktion Bild > Arbeitsplatz | Tage × 10h = Stunden (Filmproduktion). 1 Arbeitsplatz. Standardannahme: 2 Monitore. |
