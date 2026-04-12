@@ -118,6 +118,17 @@ Immer im Notizfeld dokumentieren.
 - Drehdatum unbekannt: Heizperiode (Oktober–April)? → Motive: Wärmebedarf (pauschal) zusätzlich pro Motiv
 - Büroräume: Produktionsbüro vorhanden (Fläche, Mietdauer)? Homeoffice-Tage für alle Beteiligten (Produzentin, Regie, Aufnahmeleitung etc.) — immer fragen, steht nie in der Kalkulation. Green Consultant eigene Tage selbst ergänzen.
 
+**Beistellungen (Dritter):**
+Wenn Positionen in Kalkulation oder Protokoll als Beistellung ausgewiesen sind
+(z.B. "über NDR", "über Sender", "über Förderung", "Beistellung X"),
+diese NICHT still aus der Bilanz ausschließen.
+Stattdessen als Prio-2-Rückfrage aufnehmen:
+"[Position] ist als Beistellung ausgewiesen — soll diese trotzdem
+bilanziert werden?"
+Begründung: Unter dem finanziellen Kontrollansatz ist nicht automatisch klar,
+dass Beistellungen außerhalb der Systemgrenze liegen. Impact ohne Rückfrage
+nicht verlässlich einschätzbar.
+
 ### Prio 3 — Schätzwert reicht
 - Motiv-Flächen in m² (Schätzung nach Gebäudeart)
 - Ökostrom Büro (Standardannahme + Notiz)
