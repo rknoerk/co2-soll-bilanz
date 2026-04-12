@@ -26,6 +26,14 @@ oder jede Kombination davon.
 | Postproduktion (Tage) | Kalkulation (Rohschnitt + Feinschnitt + Mischung) |
 | Herstellungskosten brutto [EUR] | Kalkulation Gesamtsumme (Position G / Zwischensumme D). Nur ganze Zahlen, keine Trennzeichen. |
 
+**Herstellungskosten brutto [EUR]:**
+Optionales Feld im Klimaktiv-Rechner. Wenn in den Produktionsunterlagen
+vorhanden, immer auslesen und in Ausgabe A aufnehmen.
+Quelle: z.B. Kalkulation, Kalkulationsprotokoll, E-Mail.
+Definition: Gesamtherstellungskosten inkl. Handlungskosten und Gewinn,
+exkl. MwSt. MwSt wird NICHT addiert.
+Eingabe als ganze Zahl ohne Trennzeichen (Rechner-Vorgabe).
+
 ---
 
 ## 1. Übersetzungsregeln: Eingabedokumente → Klimaktiv
