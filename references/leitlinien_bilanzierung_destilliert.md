@@ -32,6 +32,7 @@ Für die SOLL-Bilanz gilt: lieber grob und vollständig als präzise und lücken
 **Doppelbilanzierung vermeiden:**
 - Wenn Gebäude-Gesamtstrom erfasst wird → keine separaten Geräte-Positionen
 - Wenn Aggregat erfasst wird → kein Baustrom für dieselben Tage
+- Wenn Motive erfasst werden → kein separater Baustrom-Eintrag für dieselben Drehtage. Der Strom der Location ist bereits in den Motiven enthalten.
 
 **Kilometer-Geld:**
 - Abgerechnete Kilometergelder entstehen durch Fahrten → müssen bilanziert werden
