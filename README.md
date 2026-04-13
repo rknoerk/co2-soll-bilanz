@@ -52,8 +52,10 @@ Notiz.
 
 ### Voraussetzungen
 
-- Claude Pro oder Team Account
-- Claude Desktop App
+- Claude-Account (kostenlos möglich, aber siehe Hinweis unten)
+- Claude Desktop App oder claude.ai im Browser
+
+> **Hinweis zur kostenlosen Version:** Der Workflow funktioniert grundsätzlich auch ohne bezahlten Account. Sobald jedoch mehrere Dateien hochgeladen werden (Kalkulation, Stabliste, Drehplan, Angebote), ist die kostenlose Nachrichtengrenze schnell erreicht — danach geht es erst nach einigen Stunden weiter. Für den produktiven Einsatz empfiehlt sich Claude Pro (18 €/Monat).
 
 ### Option A: Git clone (empfohlen)
 
