@@ -3,7 +3,7 @@
 KI-gestützter Workflow für die Erstellung von CO₂-Soll-Bilanzen im Klimaktiv-Rechner
 (Green Motion / Ökologische Standards).
 
-Entwickelt von Robert Knörk, Green Consultant, Bremen.
+**Version 0.1.0** · Entwickelt von Robert Knörk, Green Consultant, Bremen.
 
 ---
 
