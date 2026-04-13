@@ -57,28 +57,15 @@ Notiz.
 
 > **Hinweis zur kostenlosen Version:** Der Workflow funktioniert grundsätzlich auch ohne bezahlten Account. Sobald jedoch mehrere Dateien hochgeladen werden (Kalkulation, Stabliste, Drehplan, Angebote), ist die kostenlose Nachrichtengrenze schnell erreicht — danach geht es erst nach einigen Stunden weiter. Für den produktiven Einsatz empfiehlt sich Claude Pro (18 €/Monat).
 
-### Option A: Git clone (empfohlen)
-
-```bash
-git clone https://github.com/rknoerk/co2-soll-bilanz.git
-```
-
-In Claude Desktop: **Settings → Custom Skills → Add Skill** → Pfad zum geklonten Repo angeben
-(z.B. `~/Code/co2-soll-bilanz`).
-
-Updates holen:
-```bash
-cd co2-soll-bilanz && git pull
-```
-
-### Option B: ZIP-Download (ohne Git)
+### Skill installieren
 
 1. Auf GitHub oben rechts **Code → Download ZIP** klicken
 2. ZIP entpacken
-3. In Claude Desktop: **Settings → Custom Skills → Add Skill** → Pfad zum entpackten Ordner angeben
+3. Auf claude.ai: **Anpassen → Skills → + → Skill hochladen** → den entpackten Ordner hochladen
+4. Skill erscheint in der Sidebar unter "Persönliche Skills"
+5. Neuen Chat öffnen — Skill ist verfügbar
 
-Hinweis: Bei dieser Variante gibt es keine automatischen Updates. Für neue Versionen
-muss die ZIP erneut heruntergeladen werden.
+**Updates:** Neue ZIP von GitHub laden, alten Skill löschen, neu hochladen.
 
 ### Erster Test
 
