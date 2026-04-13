@@ -57,12 +57,18 @@ Notiz.
 
 > **Hinweis zur kostenlosen Version:** Der Workflow funktioniert grundsätzlich auch ohne bezahlten Account. Sobald jedoch mehrere Dateien hochgeladen werden (Kalkulation, Stabliste, Drehplan, Angebote), ist die kostenlose Nachrichtengrenze schnell erreicht — danach geht es erst nach einigen Stunden weiter. Für den produktiven Einsatz empfiehlt sich Claude Pro (18 €/Monat).
 
+### Einmalige Einrichtung
+
+In Claude Desktop oder claude.ai:
+**Einstellungen → Fähigkeiten → "Cloud-Code-Ausführung und Dateierstellung"** aktivieren.
+Ohne diesen Toggle funktionieren Skills nicht.
+
 ### Skill installieren
 
 1. Auf GitHub oben rechts **Code → Download ZIP** klicken
 2. ZIP entpacken
-3. Auf claude.ai: **Anpassen → Skills → + → Skill hochladen** → den entpackten Ordner hochladen
-4. Skill erscheint in der Sidebar unter "Persönliche Skills"
+3. In Claude: **Anpassen → Skills → + → Skill erstellen → Skill hochladen** → die entpackten Dateien hochladen
+4. Skill erscheint unter "Persönliche Skills"
 5. Neuen Chat öffnen — Skill ist verfügbar
 
 **Updates:** Neue ZIP von GitHub laden, alten Skill löschen, neu hochladen.
