@@ -1,4 +1,4 @@
-# co2-soll-bilanz
+# Klimaktiv-Workflow Skill: CO2-Soll-Bilanz
 
 KI-gestützter Workflow für die Erstellung von CO₂-Soll-Bilanzen im Klimaktiv-Rechner
 (Green Motion / Ökologische Standards).
