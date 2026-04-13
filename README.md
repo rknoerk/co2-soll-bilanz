@@ -24,11 +24,11 @@ Grundlage: Vereinfachte SOLL-Erfassung gemäß Kriterium I.3 der Ökologischen S
 
 ## So funktioniert der Prozess
 
-![Workflow-Übersicht](workflow-overview.svg)
+![Workflow-Übersicht](docs/workflow-overview.svg)
 
-**1. Lesen** — Der Skill nimmt entgegen was da ist: SESAM-Kalkulation, FFA-Kalkulation,
-Stabliste, Drehplan, Motivliste, E-Mails, WhatsApp-Nachrichten. Format und Vollständigkeit
-sind egal — der Skill arbeitet mit dem was vorliegt.
+**1. Lesen** — Der Skill nimmt entgegen was da ist: FFA-Kalkulation, SESAM-Kalkulation,
+Sender-Schema, Stabliste, Drehplan, Motivliste, E-Mails, WhatsApp-Nachrichten. Format
+und Vollständigkeit sind egal — der Skill arbeitet mit dem was vorliegt.
 
 **2. Übersetzen** — Kalkulationspositionen in Euro und Tagen werden nach hinterlegten Regeln
 in die Eingabefelder des Klimaktiv-Rechners übersetzt: km, Personenkilometer, Nächte,
@@ -38,9 +38,10 @@ Portionen, m², Nutzungstage. Jeder Rechenweg wird in der Notiz dokumentiert.
 werden muss, bekommt eine Standardannahme mit Notiz. Was fehlt, wird zur priorisierten
 Rückfrage (Prio 1 = großer CO₂-Impact, Prio 3 = Schätzwert reicht).
 
-**4. Rückfragen klären** — Die Produzentin bekommt ein Template mit nummerierten Fragen
-(C1, C2, C3...) und kann per Referenznummer antworten. Nach Rückmeldung wird die
-Eingabeliste aktualisiert.
+**4. Human in the Loop** — Der Green Consultant arbeitet iterativ mit dem Skill: Der Skill
+legt Zwischenergebnisse vor, der GC prüft, korrigiert und gibt frei. Rückfragen an die
+Produzentin (C1, C2, C3...) werden nach Rückmeldung eingearbeitet — der Skill aktualisiert
+die Eingabeliste, der GC entscheidet ob das Ergebnis trägt.
 
 **5. Eingabeliste übergeben** — Das Ergebnis ist eine tabellarische Liste die direkt in den
 Klimaktiv-Rechner übertragen werden kann: Handlungsfeld, Quelle, Bezeichnung, Wert, Einheit,
