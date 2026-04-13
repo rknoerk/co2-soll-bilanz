@@ -137,6 +137,32 @@ Geplant:
 
 ---
 
+## FAQ
+
+**Werden meine Daten für das Training von Claude genutzt?**
+
+Das hängt von den eigenen Privacy-Einstellungen ab. Seit Oktober 2025 gibt es für
+Free-, Pro- und Max-Accounts eine Opt-in-Möglichkeit. Wer beim Update im Herbst 2025
+einfach „Akzeptieren" geklickt hat, hat den Toggle möglicherweise unbewusst aktiviert.
+
+Nachschauen und ggf. deaktivieren:
+claude.ai → Einstellungen → Datenschutz → „Claude für alle verbessern" → Toggle aus
+
+Wer auf Nummer sicher gehen will: Incognito-Modus nutzen (kein Login, keine Speicherung,
+kein Training — unabhängig von den Einstellungen).
+
+Für API-Nutzung und Claude for Work gelten strengere Regeln: dort werden Daten
+grundsätzlich nicht für Training verwendet.
+
+**Darf ich Stablisten und Kalkulationen hochladen?**
+
+Stablisten enthalten personenbezogene Daten (Namen, teils Adressen). Diese landen beim
+Upload auf Anthropic-Servern. Empfehlung: Adressen vor dem Upload entfernen. Namen in
+Stablisten sind in der Regel unkritisch — sie dienen nur der Teamgrößen-Schätzung,
+nicht als Inhalt der Bilanz.
+
+---
+
 ## Mitmachen
 
 Interesse an KI-Tooling für die CO₂-Bilanzierung?
