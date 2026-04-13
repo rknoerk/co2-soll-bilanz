@@ -67,8 +67,8 @@ Ohne diesen Toggle funktionieren Skills nicht.
 ### Skill installieren
 
 1. Auf GitHub oben rechts **Code → Download ZIP** klicken
-2. ZIP entpacken
-3. In Claude: **Anpassen → Skills → + → Skill erstellen → Skill hochladen** → die entpackten Dateien hochladen
+2. In Claude (Desktop oder Web): **Anpassen → Skills → + → Skill erstellen → Skill hochladen**
+3. Die heruntergeladene ZIP-Datei direkt hochladen (nicht entpacken)
 4. Skill erscheint unter "Persönliche Skills"
 5. Neuen Chat öffnen — Skill ist verfügbar
 
