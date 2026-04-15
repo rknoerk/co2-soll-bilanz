@@ -31,6 +31,10 @@ löst welchen Hinweis in Ausgabe D aus.
 | IV.5 Kein Einweggeschirr | Onboarding: externer Caterer ODER Vorgabe als eingehalten markiert | Bei externem Caterer: Erklärung des Caterers. Bei interner Versorgung: unterschriebene Erklärung der Produktionsleitung. | Intern: kurze E-Mail der Herstellungsleitung an Green Consultant reicht. |
 | II.4 Ökostrom Postproduktion | Postproduktions-Unternehmen in Bilanz eingetragen | Bestätigung des Post-Unternehmens zu Stromversorger und Ökostromzertifikat. Auf Anforderung: Kopie der Stromrechnung. | Per E-Mail ausreichend. Solange der Auftrag noch läuft. |
 | IV.1 Umweltfreundliche Übernachtungen | Onboarding: Unterkünfte mit Umweltzertifikat ≥50% | Kopie des Umweltzertifikats vom Hotel oder schriftliche Bestätigung des Betreibers. | Beim Check-out oder kurz danach per Mail an Rezeption. |
+| IV.4 Info/Befragung Fleischkonsum | Vorgabe als eingehalten markiert | Bei rein vegetarischem Catering: Caterer-Erklärung. Sonst: Kopien der Informationsmaterialien und Befragungen zum Fleischkonsum. Bei nicht-vegetarischem Catering: Auswertung der Befragungen. | Befragungsbögen und Info-Aushänge während der Drehphase sichern. Auswertung am Ende der Drehphase erstellen. |
+| II.10 Lichttechnik on location | Vorgabe als eingehalten markiert ODER On-Location-Dreh in Bilanz | Schriftliche Erklärung der für die Lichttechnik verantwortlichen Person oder Firma (Lichtdienstleister oder Oberbeleuchter/Lichtdesigner). Auf Anforderung: Lichtplan, Lichtliste, Abschlussrechnung mit Scheinwerfertypen. | Bestätigung beim Wrap oder bei Rechnungsstellung einholen. |
+| V.1 Mehrfachverwendung Kulissen | Vorgabe als eingehalten markiert ODER Kulissen-Bau in Bilanz | Bestätigung Bühnenbildner*in zur Mehrfachverwendung. Auf Anforderung: Kostenaufstellung Kulissen- und Dekomaterial. | Bei Abschluss der Zusammenarbeit mit Szenenbildabteilung miterbitten. |
+| V.11 Trennung Dekoration vor Entsorgung | Vorgabe als eingehalten markiert | Erklärung der Dekobau-Firma zur sortenreinen Trennung vor Entsorgung. Auf Anforderung: Entsorger-Rechnung. | Beim Abbau / bei Rechnungsstellung der Dekobau-Firma einholen. |
 
 ---
 
@@ -57,6 +61,7 @@ löst welchen Hinweis in Ausgabe D aus.
 | V.3 FSC/PEFC Holz | Listenpflicht in Stufe 1 — kein separates Stufe-2-Dokument |
 | V.6 Kostüme | Bestätigung Kostümbildner*in — kein Drehtag-Timing erforderlich |
 | V.9 Papier | Listenpflicht in Stufe 1 — kein separates Stufe-2-Dokument |
+| II.9 Lichttechnik Studio | Lichtplan + Abschlussrechnung — Timing nicht kritisch |
 
 ---
 
@@ -67,4 +72,4 @@ Caterer-Eintrag → IV.2, IV.3, IV.5 erscheinen nicht in Ausgabe D.
 
 ---
 
-*Grundlage: PwC-Nachweisverfahren green motion Stufe 2, Stand 01.01.2024*
+*Grundlage: PwC-Nachweisverfahren green motion Stufe 2, Stand 31.10.2025*
