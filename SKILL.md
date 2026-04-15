@@ -120,6 +120,27 @@ Zweck: Produzentin kann Antworten direkt per Referenznummer zurückmelden
 (z.B. "C1: Ökostrom, C3: Diesel"). Kein Interpretationsspielraum welche
 Frage gemeint ist.
 
+**Hintergrund Ausgabe D:**
+Das Green-Motion-Nachweisverfahren erfolgt in zwei Stufen. Stufe 1 ist
+immer einzureichen. Stufe 2 wird von PwC Deutschland anlassbezogen oder
+per Zufallsstichprobe (ca. 5–10 % aller Produktionen) angefordert und
+verlangt Originaldokumente — teils solche, die nur am Drehtag selbst
+gesichert werden können. Ausgabe D macht die Produzentin frühzeitig
+auf diese Dokumentationspflichten aufmerksam.
+
+**Ausgabe D: Stufe-2-Vorsorge**
+Nur ausgeben wenn mindestens eine relevante Muss-Vorgabe als eingehalten
+erkannt oder als geplant markiert wird.
+Trigger-Logik und vollständige Dokumentenliste: siehe `references/stufe2_vorsorge.md`.
+
+Header: "📁 Ausgabe D — Stufe-2-Vorsorge"
+Subheader: "Diese Dokumente jetzt einplanen — nicht erst wenn PwC fragt."
+
+Format: Tabelle mit drei Spalten: Muss-Vorgabe | Was sichern | Wann
+Gruppiert nach drei Zeitfenstern (siehe stufe2_vorsorge.md).
+Punkte die nicht relevant sind (Vorgabe nicht eingehalten oder nicht
+anwendbar) erscheinen nicht in Ausgabe D.
+
 ### Schritt 5 — Debrief
 
 Am Ende jeder Bilanz:
