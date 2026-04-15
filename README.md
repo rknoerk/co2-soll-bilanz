@@ -3,7 +3,7 @@
 KI-gestützter Workflow für die Erstellung von CO₂-Soll-Bilanzen im Klimaktiv-Rechner
 (Green Motion / Ökologische Standards).
 
-**Version 0.1.0** · Entwickelt von Robert Knörk, Green Consultant, Bremen.
+**Version 0.2.0** · Entwickelt von Robert Knörk, Green Consultant, Bremen.
 
 ---
 
@@ -93,6 +93,9 @@ Der Skill sollte mit Schritt 0 (Arbeitsweise festlegen) starten.
 | `references/onboarding_fragebogen.md` | Fragebogen für offene Punkte nach Eingang der Unterlagen |
 | `references/oekologische_standards_destilliert.md` | 25 Muss-Vorgaben, Stand September 2025 |
 | `references/leitlinien_bilanzierung_destilliert.md` | Systemgrenzen, Wesentlichkeit, Berechnungsregeln |
+| `references/stufe2_vorsorge.md` | Stufe-2-Vorsorge: Trigger-Mapping für PwC-Nachweisdokumente |
+| `references/pwc_prueflogik.md` | PwC-Prüfkriterien pro Muss-Vorgabe |
+| `references/pwc_excel_schema.json` | JSON-Schema des PwC-Nachweisverfahren-Excel (209 Felder) |
 
 ---
 
