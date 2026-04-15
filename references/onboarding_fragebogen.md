@@ -40,6 +40,8 @@ und wie die Ist-Bilanz später effizient läuft.
 | **Gibt es einen Herstellungsplan?** | Ja / Nein / In Arbeit |
 | **Gibt es eine Kalkulation (PDF/Excel)?** | Ja / Nein / In Arbeit |
 | **Wird das Green Motion Label angestrebt?** | Ja / Nein / Noch offen |
+| **Erstausstrahlender Sender / VoD-Dienst** | z. B. ZDF, ARD, Netflix, kein Sender |
+| **Verwendete Fassung Ökologische Standards** | September 2025 / Januar 2024 / Januar 2023 / Januar 2022 — ausschlaggebend: Datum Förderantrag, Auftragserteilung oder Produktionszeitraum |
 | **Liegt die unterzeichnete Selbsterklärung I.1 vor?** | Ja / Nein / Wird noch zugesendet |
 
 ---
