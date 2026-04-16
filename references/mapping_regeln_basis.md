@@ -25,6 +25,7 @@ oder jede Kombination davon.
 | Drehtage | Kalkulation Deckblatt, Herstellungsplan |
 | Postproduktion (Tage) | Kalkulation (Rohschnitt + Feinschnitt + Mischung) |
 | Herstellungskosten brutto [EUR] | Kalkulation Gesamtsumme (Position G / Zwischensumme D). Nur ganze Zahlen, keine Trennzeichen. |
+| Projekt-Nummer | Kalkulations-Deckblatt, Sendernummern (z.B. NDR PSP-Nr.), Fördernummern, Content Item ID |
 
 **Herstellungskosten brutto [EUR]:**
 Optionales Feld im Klimaktiv-Rechner. Wenn in den Produktionsunterlagen
@@ -34,24 +35,25 @@ Definition: Gesamtherstellungskosten inkl. Handlungskosten und Gewinn,
 exkl. MwSt. MwSt wird NICHT addiert.
 Eingabe als ganze Zahl ohne Trennzeichen (Rechner-Vorgabe).
 
-**Projekt-Nummer (KlimAktiv-Rechner):**
-Optionales freies Textfeld. Kann jede Art von Projektreferenz aufnehmen —
-interne Produktionsnummer, Sendernummer, Fördernummer etc.
+**Projekt-Nummer:**
+Optionales freies Textfeld im KlimAktiv-Rechner. Kann jede Art von
+Projektreferenz aufnehmen — Sendernummer, Fördernummer, interne
+Produktionsnummer etc.
 
 Scanning-Regel: Beim Lesen der Unterlagen alle Nummern-ähnlichen
 Identifier erfassen, z.B.:
-- NDR PSP-Nr. / Sender-Projektnummern
-- FFA-Nr. / Förder-Nr.
+- Sender-Projektnummern (NDR PSP-Nr., ZDF-Auftragsnummer etc.)
+- FFA-Nr. / Förder-Nr. / Nordmedia-Nr.
 - Content Item ID
 - Interne Nummern auf Kalkulations-Deckblatt
 
 Logik:
-- 0 Nummern gefunden → Feld weglassen
+- 0 Nummern gefunden → Feld in Ausgabe A weglassen
 - 1 Nummer gefunden → Direkt in Ausgabe A aufnehmen mit Quelle,
   kein Rückfrage-Slot nötig
-- 2+ Nummern gefunden → Alle in Ausgabe A auflisten, Prio-3-Rückfrage:
-  "Welche Nummer soll als Projekt-Nummer im KlimAktiv-Rechner stehen?
-  Gefunden: [Liste mit Quelle je Nummer]"
+- 2+ Nummern gefunden → Alle in Ausgabe A auflisten (⚠ offen),
+  Prio-3-Rückfrage: "Welche Nummer soll als Projekt-Nummer im
+  KlimAktiv-Rechner stehen? Gefunden: [Liste mit Quelle je Nummer]"
 
 ---
 
