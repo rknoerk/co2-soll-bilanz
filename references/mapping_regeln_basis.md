@@ -34,6 +34,25 @@ Definition: Gesamtherstellungskosten inkl. Handlungskosten und Gewinn,
 exkl. MwSt. MwSt wird NICHT addiert.
 Eingabe als ganze Zahl ohne Trennzeichen (Rechner-Vorgabe).
 
+**Projekt-Nummer (KlimAktiv-Rechner):**
+Optionales freies Textfeld. Kann jede Art von Projektreferenz aufnehmen —
+interne Produktionsnummer, Sendernummer, Fördernummer etc.
+
+Scanning-Regel: Beim Lesen der Unterlagen alle Nummern-ähnlichen
+Identifier erfassen, z.B.:
+- NDR PSP-Nr. / Sender-Projektnummern
+- FFA-Nr. / Förder-Nr.
+- Content Item ID
+- Interne Nummern auf Kalkulations-Deckblatt
+
+Logik:
+- 0 Nummern gefunden → Feld weglassen
+- 1 Nummer gefunden → Direkt in Ausgabe A aufnehmen mit Quelle,
+  kein Rückfrage-Slot nötig
+- 2+ Nummern gefunden → Alle in Ausgabe A auflisten, Prio-3-Rückfrage:
+  "Welche Nummer soll als Projekt-Nummer im KlimAktiv-Rechner stehen?
+  Gefunden: [Liste mit Quelle je Nummer]"
+
 ---
 
 ## 1. Übersetzungsregeln: Eingabedokumente → Klimaktiv
