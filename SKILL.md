@@ -36,6 +36,7 @@ der Ökologischen Standards. IST-Bilanzierung ist nicht Gegenstand dieses Skills
 | `references/onboarding_fragebogen.md` | Wenn neue Produktion aufgesetzt wird |
 | `references/oekologische_standards_destilliert.md` | Bei Fragen zu Muss-Vorgaben, Green Motion Label |
 | `references/leitlinien_bilanzierung_destilliert.md` | Bei Methodenfragen, Systemgrenzen, Wesentlichkeit |
+| `references/klimaktiv_stammdaten.json` | Stammdaten-Maske des KlimAktiv-Rechners — alle Felder mit Typen, Dropdown-Optionen und Pflichtfeldern. Bei Stammdaten-Mapping immer konsultieren. |
 
 ---
 

@@ -11,6 +11,8 @@ oder jede Kombination davon.
 
 ## 0. Stammdaten des Klimaktiv-Rechners
 
+Vollständiges Feldschema mit Typen und Dropdown-Optionen: `references/klimaktiv_stammdaten.json`
+
 | Feld | Wo typischerweise zu finden |
 |---|---|
 | Titel der Produktion | Deckblatt Kalkulation, Herstellungsplan |
@@ -18,14 +20,18 @@ oder jede Kombination davon.
 | Jahr der Förderentscheidung | Förder-E-Mail, Kalkulation. CSV-Export: wird unter der Spalte "Jahr der Produktion" exportiert. |
 | Jahr der Ausstrahlung/Aufführung | Herstellungsplan, Sendetermin |
 | Genre | Kalkulation Deckblatt |
-| Herstellungsverfahren | Kalkulation (On location / Studio / Mix) |
+| Herstellungsverfahren | Kalkulation. Exakte Optionen im Rechner: Keine Angabe / EB-Dreh / TV-Aussenübertragung (live/Event/Festival) / Studio / On location / Computer based / LED-Studio/Volume / Virtual Production / Mix / Sonstige |
 | Medium | Kalkulation (Kino / TV / Streaming) |
 | Art | Kalkulation. Exakte Optionen im Klimaktiv-Rechner: Keine Angabe / Eigenproduktion (TV und VOD) / Auftragsproduktion / Co-Produktion / Unabhängige und geförderte Produktion |
 | Länge [min] | Kalkulation Deckblatt |
 | Drehtage | Kalkulation Deckblatt, Herstellungsplan |
 | Postproduktion (Tage) | Kalkulation (Rohschnitt + Feinschnitt + Mischung) |
 | Herstellungskosten brutto [EUR] | Kalkulation Gesamtsumme (Position G / Zwischensumme D). Nur ganze Zahlen, keine Trennzeichen. |
-| Projekt-Nummer | Kalkulations-Deckblatt, Sendernummern (z.B. NDR PSP-Nr.), Fördernummern, Content Item ID |
+| Projekt-Nummer | Kalkulations-Deckblatt, Sendernummern (z.B. NDR PSP-Nr.), Fördernummern, Content Item ID. Freitext — keine festgelegte Bedeutung. |
+| Bautage | Kalkulation (Aufbautage, Abbautage) |
+| Reisetage | Drehplan, Kalkulation |
+| Finanzierung | Kalkulation Deckblatt, Förder-E-Mail. Freitext, z.B. „NDR" oder „nordmedia / NDR". |
+| Kommentar | Internes Notizfeld im Rechner — kein Mapping nötig, GC füllt selbst. |
 
 **Herstellungskosten brutto [EUR]:**
 Optionales Feld im Klimaktiv-Rechner. Wenn in den Produktionsunterlagen
@@ -54,6 +60,13 @@ Logik:
 - 2+ Nummern gefunden → Alle in Ausgabe A auflisten (⚠ offen),
   Prio-3-Rückfrage: "Welche Nummer soll als Projekt-Nummer im
   KlimAktiv-Rechner stehen? Gefunden: [Liste mit Quelle je Nummer]"
+
+**Herstellungsverfahren — Mapping-Hinweis:**
+Bei Dokumentar- und Reportage-Produktionen mit kleinem Team und
+mobilem Equipment: "EB-Dreh" wählen, nicht "On location".
+"On location" gilt für größere Crew-Produktionen mit Setaufbau.
+Faustregel: Wenn kein Aggregat, kein Bühnen-LKW, kein Setbau
+→ EB-Dreh.
 
 ---
 
