@@ -58,6 +58,19 @@ B oder C empfehlen und kurz begründen.
 
 Standard wenn keine Angabe: C (Hybrid).
 
+Zweite Frage — immer stellen:
+"Wird für diese Produktion das PwC-Nachweisverfahren
+durchgeführt?"
+
+→ Ja: Ausgabe E (Stufe-2-Vorsorge) am Ende der Bilanz ausgeben.
+  Trigger-Logik: siehe `references/stufe2_vorsorge.md`.
+→ Nein: Ausgabe E weglassen.
+
+Hinweis: Der Abschlussbericht (Muss-Vorgabe I.5) ist davon
+unabhängig — er ist immer zu liefern und gehört nicht in
+diese Abfrage. Es geht hier ausschließlich um das
+PwC-Nachweisverfahren (Stufe 1 + ggf. Stufe 2).
+
 ### Schritt 1 — Produktion einordnen
 Lies alle verfügbaren Unterlagen. Bestimme:
 - Produktionsformat (Spielfilm / Kurzfilm / Doku / Serie)
@@ -178,7 +191,7 @@ Nur ausgeben wenn mindestens eine relevante Muss-Vorgabe als eingehalten
 erkannt oder als geplant markiert wird.
 Trigger-Logik und vollständige Dokumentenliste: siehe `references/stufe2_vorsorge.md`.
 
-Header: "📁 Ausgabe D — Stufe-2-Vorsorge"
+Header: "📁 Ausgabe E — Stufe-2-Vorsorge"
 Subheader: "Diese Dokumente jetzt einplanen — nicht erst wenn PwC fragt."
 
 Format: Tabelle mit drei Spalten: Muss-Vorgabe | Was sichern | Wann
