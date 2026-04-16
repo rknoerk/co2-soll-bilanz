@@ -1,0 +1,224 @@
+{
+  "_meta": {
+    "quelle": "https://go.greenshooting.de/de_DE/production/data/?production_entry=create",
+    "ausgelesen_am": "2026-04-16",
+    "hinweis": "Alle Felder der Stammdaten-Maske beim Anlegen einer neuen Produktion im KlimAktiv-Rechner (Green Shooting). Optionen originalgetreu übernommen."
+  },
+  "felder": [
+    {
+      "id": "edit_production_state",
+      "field_name": "edit_production[state]",
+      "label": "Status",
+      "label_rechner": "Es handelt sich um eine Testproduktion",
+      "typ": "checkbox",
+      "pflicht": false,
+      "hinweis": "Testproduktionen können nicht in normale Produktionen umgewandelt werden, nicht kopiert oder abgeschlossen werden, Stakeholder (Sender, Firmen, Förderungen) können nicht zugeordnet werden.",
+      "mapping_quelle": null
+    },
+    {
+      "id": "edit_production_title",
+      "field_name": "edit_production[production_title]",
+      "label": "Titel der Produktion",
+      "typ": "text",
+      "pflicht": false,
+      "hinweis": null,
+      "mapping_quelle": "Deckblatt Kalkulation, Herstellungsplan, NDR-Vertrag"
+    },
+    {
+      "id": "edit_project_number",
+      "field_name": "edit_production[project_number]",
+      "label": "Projekt-Nummer",
+      "typ": "text",
+      "pflicht": false,
+      "hinweis": "Freies Textfeld. Kann jede Projektreferenz aufnehmen: Sendernummer, Fördernummer, interne Produktionsnummer etc.",
+      "mapping_quelle": "Kalkulations-Deckblatt, Sendernummern (z.B. NDR PSP-Nr.), Fördernummern, Content Item ID"
+    },
+    {
+      "id": "edit_production_production_year",
+      "field_name": "edit_production[production_year]",
+      "label": "Jahr der Produktion",
+      "typ": "select",
+      "pflicht": true,
+      "optionen": ["2019","2020","2021","2022","2023","2024","2025","2026","2027","2028","2029","2030"],
+      "hinweis": "Kann NICHT mehr geändert werden nachdem SOLL- oder IST-Daten erfasst wurden. CSV-Export: die Spalte 'Jahr der Produktion' enthält im Export das Jahr der Förderentscheidung.",
+      "mapping_quelle": "Kalkulation Deckblatt, Drehzeitraum"
+    },
+    {
+      "id": "edit_production_funding_year",
+      "field_name": "edit_production[funding_year]",
+      "label": "Jahr der Förderentscheidung",
+      "typ": "select",
+      "pflicht": false,
+      "optionen": ["Keine Angabe","2019","2020","2021","2022","2023","2024","2025","2026","2027","2028","2029","2030"],
+      "hinweis": "CSV-Export: wird unter der Spalte 'Jahr der Produktion' exportiert.",
+      "mapping_quelle": "Förder-E-Mail, Kalkulation, Beauftragungsdatum Sender"
+    },
+    {
+      "id": "edit_production_broadcast_year",
+      "field_name": "edit_production[broadcast_year]",
+      "label": "Jahr der Ausstrahlung / Aufführung",
+      "typ": "select",
+      "pflicht": false,
+      "optionen": ["Keine Angabe","2019","2020","2021","2022","2023","2024","2025","2026","2027","2028","2029","2030"],
+      "hinweis": null,
+      "mapping_quelle": "Herstellungsplan, Sendetermin"
+    },
+    {
+      "id": "edit_production_genre",
+      "field_name": "edit_production[production_genre]",
+      "label": "Genre",
+      "typ": "select",
+      "pflicht": false,
+      "optionen": [
+        {"wert": "", "label": "Keine Angabe"},
+        {"wert": "fictional", "label": "Spielfilm"},
+        {"wert": "documentary", "label": "Dokumentarfilm"},
+        {"wert": "animation", "label": "Animation"},
+        {"wert": "series_documentary", "label": "Serie (dokumentarisch)"},
+        {"wert": "series_fictional", "label": "Serie (fiktional)"},
+        {"wert": "coverage", "label": "Reportage"},
+        {"wert": "sport", "label": "Sport"},
+        {"wert": "magazine", "label": "Magazin"},
+        {"wert": "show", "label": "Show"},
+        {"wert": "event", "label": "Event"},
+        {"wert": "news", "label": "News/Aktualität"},
+        {"wert": "ad", "label": "Werbung/Imagefilm"},
+        {"wert": "short", "label": "Kurzfilm"},
+        {"wert": "social", "label": "Social Media"},
+        {"wert": "other", "label": "Sonstige"}
+      ],
+      "mapping_quelle": "Kalkulation Deckblatt, NDR-Vertrag"
+    },
+    {
+      "id": "edit_production_method",
+      "field_name": "edit_production[production_method]",
+      "label": "Herstellungsverfahren",
+      "typ": "select",
+      "pflicht": false,
+      "optionen": [
+        {"wert": "", "label": "Keine Angabe"},
+        {"wert": "eb", "label": "EB-Dreh"},
+        {"wert": "au", "label": "TV-Aussenübertragung (live/Event/Festival)"},
+        {"wert": "studio", "label": "Studio"},
+        {"wert": "ol", "label": "On location"},
+        {"wert": "cb", "label": "Computer based"},
+        {"wert": "led", "label": "LED-Studio/Volume"},
+        {"wert": "vp", "label": "Virtual Production"},
+        {"wert": "mix", "label": "Mix"},
+        {"wert": "other", "label": "Sonstige"}
+      ],
+      "hinweis": "Achtung: mehr Optionen als bisher in mapping_regeln_basis.md dokumentiert. Neu: EB-Dreh, TV-Aussenübertragung, Computer based, LED-Studio/Volume, Virtual Production.",
+      "mapping_quelle": "Kalkulation"
+    },
+    {
+      "id": "edit_production_medium",
+      "field_name": "edit_production[production_medium]",
+      "label": "Medium",
+      "typ": "select",
+      "pflicht": false,
+      "optionen": [
+        {"wert": "", "label": "Keine Angabe"},
+        {"wert": "tv", "label": "TV"},
+        {"wert": "cinema", "label": "Kino"},
+        {"wert": "stream_image", "label": "Streaming Bild (Social Media, Web, Plattform)"},
+        {"wert": "radio", "label": "Radio"},
+        {"wert": "stream_audio", "label": "Streaming Audio (Web, Podcast)"}
+      ],
+      "mapping_quelle": "Kalkulation, NDR-Vertrag"
+    },
+    {
+      "id": "edit_production_type",
+      "field_name": "edit_production[production_type]",
+      "label": "Art",
+      "typ": "select",
+      "pflicht": false,
+      "optionen": [
+        {"wert": "", "label": "Keine Angabe"},
+        {"wert": "inhouse", "label": "Eigenproduktion (TV und VOD)"},
+        {"wert": "commission", "label": "Auftragsproduktion"},
+        {"wert": "coproduction", "label": "Co-Produktion"},
+        {"wert": "independet", "label": "Unabhängige und geförderte Produktion"}
+      ],
+      "mapping_quelle": "Kalkulation, NDR-Vertrag"
+    },
+    {
+      "id": "edit_production_duration",
+      "field_name": "edit_production[production_duration]",
+      "label": "Länge [min]",
+      "typ": "text",
+      "pflicht": false,
+      "hinweis": "Dezimalzahl erlaubt (z.B. 28.5 für 28'30\")",
+      "mapping_quelle": "Kalkulation Deckblatt"
+    },
+    {
+      "id": "edit_production_episodes",
+      "field_name": "edit_production[production_episodes]",
+      "label": "Anzahl Folgen",
+      "typ": "text",
+      "pflicht": false,
+      "hinweis": "Nur bei Serien relevant",
+      "mapping_quelle": "Kalkulation Deckblatt"
+    },
+    {
+      "id": "edit_production_days_shooting",
+      "field_name": "edit_production[production_days_shooting]",
+      "label": "Drehtage",
+      "typ": "text",
+      "pflicht": false,
+      "mapping_quelle": "Kalkulation Deckblatt, Herstellungsplan"
+    },
+    {
+      "id": "edit_production_days_construction",
+      "field_name": "edit_production[production_days_construction]",
+      "label": "Bautage",
+      "typ": "text",
+      "pflicht": false,
+      "hinweis": "War bisher nicht in mapping_regeln_basis.md erfasst.",
+      "mapping_quelle": "Kalkulation (Aufbautage, Abbautage)"
+    },
+    {
+      "id": "edit_production_days_travel",
+      "field_name": "edit_production[production_days_travel]",
+      "label": "Reisetage",
+      "typ": "text",
+      "pflicht": false,
+      "hinweis": "War bisher nicht in mapping_regeln_basis.md erfasst.",
+      "mapping_quelle": "Drehplan, Kalkulation"
+    },
+    {
+      "id": "edit_production_days_postproduction",
+      "field_name": "edit_production[production_days_postproduction]",
+      "label": "Postproduktion (Tage)",
+      "typ": "text",
+      "pflicht": false,
+      "mapping_quelle": "Kalkulation (Rohschnitt + Feinschnitt + Mischung)"
+    },
+    {
+      "id": "edit_production_costs",
+      "field_name": "edit_production[production_costs]",
+      "label": "Herstellungskosten brutto [EUR]",
+      "typ": "number",
+      "pflicht": false,
+      "hinweis": "Gesamtherstellungskosten inkl. Handlungskosten und Gewinn, exkl. MwSt. Nur ganze Zahlen, keine Trennzeichen.",
+      "mapping_quelle": "Kalkulation Zwischensumme D / Position G"
+    },
+    {
+      "id": "edit_production_funding",
+      "field_name": "edit_production[production_funding]",
+      "label": "Finanzierung",
+      "typ": "text",
+      "pflicht": false,
+      "hinweis": "War bisher nicht in mapping_regeln_basis.md erfasst. Freitext — z.B. 'NDR', 'nordmedia / NDR'.",
+      "mapping_quelle": "Kalkulation Deckblatt, Förder-E-Mail"
+    },
+    {
+      "id": "edit_production_comment",
+      "field_name": "edit_production[production_comment]",
+      "label": "Kommentar",
+      "typ": "text",
+      "pflicht": false,
+      "hinweis": "War bisher nicht in mapping_regeln_basis.md erfasst. Internes Notizfeld.",
+      "mapping_quelle": null
+    }
+  ]
+}
