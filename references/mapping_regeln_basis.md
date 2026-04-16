@@ -160,6 +160,21 @@ Immer im Notizfeld dokumentieren.
 **Energie:**
 - Stromversorgung Set: Baustrom, durchschnittlicher Verbrauch — wenn kein Aggregat in Kalkulation
 - Postproduktion: Ökostrom — immer Standardannahme (extern: Muss-Vorgabe II.4 / intern: Muss-Vorgabe II.1). Quelle "Arbeitsplatz (Ökostrom)" immer wählen.
+**Postproduktion Ökostrom — immer Prio-1-Rückfrage:**
+Wann immer Ökostrom in der Postproduktion als Annahme gesetzt wird
+(Muss-Vorgabe II.4), erscheint in Ausgabe C eine Prio-1-Rückfrage.
+
+Formulierung:
+"Postproduktion (Muss-Vorgabe II.4): Bitte sicherstellen dass
+Schnitt/Mischung/Ton mit Ökostrom läuft. Wenn Cutter oder Studio
+keinen eigenen Ökostrom-Vertrag haben: Tarifwechsel oder
+Ökostrom-Nachweis vor Produktionsbeginn ansprechen."
+
+Gilt für alle Postpro-Einträge mit Ökostrom-Annahme:
+Postproduktion Bild, Ton, Sonstiges.
+Einen gemeinsamen C-Eintrag für alle betroffenen Postpro-Positionen
+— nicht pro Position einzeln.
+
 - Postproduktion Bild: 1 Schnittplatz, 2 Monitore, Tage × 10h = Stunden (Filmproduktion)
 - Postproduktion Ton: analog Bild, 1 Arbeitsplatz
 - Motive: konventioneller Strom — Standardannahme. Begründung: "Ist nicht eindeutig zu
