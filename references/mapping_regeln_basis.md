@@ -135,6 +135,25 @@ Standardfall SOLL-Bilanz: immer "Pkw (Distanzschätzung)" verwenden.
 
 ### Catering
 
+**IV.3 Vegetarisches Catering — Anwendbarkeitsprüfung (immer zuerst):**
+IV.3 gilt NUR wenn BEIDE Bedingungen erfüllt sind:
+1. In der betreffenden Woche finden 3 oder mehr Drehtage statt
+2. Es wird ein externes, separates Catering eingesetzt
+
+Logik:
+- Weniger als 3 Drehtage/Woche → IV.3 nicht anwendbar, kein C-Eintrag
+- Kein externes Catering (nur Spesen/Diäten) → IV.3 nicht anwendbar, kein C-Eintrag
+- Beide Bedingungen erfüllt → Prio-2-Rückfrage:
+  "Vegetarischer Drehtag (Muss-Vorgabe IV.3): An welchem Tag der Woche
+  wird das Essensangebot rein vegetarisch oder vegan sein?
+  Bitte für den Abschlussbericht festhalten."
+- Unklar ob externes Catering → Prio-2-Rückfrage:
+  "Wird ein externer Caterer beauftragt? (Entscheidet ob IV.3 gilt.)"
+
+In der Notiz-Spalte der Catering-Einträge dokumentieren wenn IV.3
+nicht anwendbar ist, z.B.:
+"IV.3 nicht anwendbar (nur 2 DT, kein externes Catering)."
+
 | Kalkulations-Position | Klimaktiv-Feld | Regel |
 |---|---|---|
 | Catering Set (€/Tag × Tage) | Essen > Vollverpflegung (ohne Frühstück) | Portionen = Drehtage × Personen am Set |
