@@ -9,7 +9,7 @@ PwC prüft dann mit Originaldokumenten — teils solche, die nur am Drehtag
 selbst gesichert werden können und nachträglich nicht mehr beschaffbar sind.
 
 Diese Datei definiert: welcher Bilanz-Eintrag oder welche Onboarding-Antwort
-löst welchen Hinweis in Ausgabe D aus.
+löst welchen Hinweis in Ausgabe E aus.
 
 ---
 
@@ -50,7 +50,7 @@ löst welchen Hinweis in Ausgabe D aus.
 
 ---
 
-## Nicht in Ausgabe D — diese Vorgaben brauchen keine Stufe-2-Dokumente
+## Nicht in Ausgabe E — diese Vorgaben brauchen keine Stufe-2-Dokumente
 
 | Muss-Vorgabe | Grund |
 |---|---|
@@ -68,7 +68,7 @@ löst welchen Hinweis in Ausgabe D aus.
 ## Wenn kein Caterer
 
 Wenn Onboarding-Antwort "kein externer Caterer" oder Bilanz enthält keinen
-Caterer-Eintrag → IV.2, IV.3, IV.5 erscheinen nicht in Ausgabe D.
+Caterer-Eintrag → IV.2, IV.3, IV.5 erscheinen nicht in Ausgabe E.
 
 ---
 
