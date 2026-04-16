@@ -95,15 +95,20 @@ sondern auch z.B. Postproduktion (Tage), Drehtage, Drehzeitraum wenn diese
 zum Zeitpunkt der Bilanz noch nicht vollständig feststehen.
 
 **Ausgabe B: Eingabeliste CO₂-Daten**
-Format pro Eintrag:
-Handlungsfeld > Thema > Quelle
-Menge: [Zahl] [Einheit]
-Notiz: [Annahme oder Quelle]
+Immer als 5-spaltige Tabelle, gruppiert nach Handlungsfeld:
 
-Jede offene Stelle (Schätzannahme oder fehlender Wert) in der Eingabeliste erhält
-einen Verweis auf die zugehörige Rückfragennummer aus Ausgabe C (z.B. "→ C3").
-Der Sektions-Header erhält ein Warnsignal (z.B. "⚠") wenn mindestens eine
-offene Stelle im Handlungsfeld existiert.
+Sektionskopf: `### Handlungsfeld` — mit `⚠` davor wenn mindestens ein
+offener Eintrag im Handlungsfeld existiert, sonst ohne.
+
+| Klimaktiv-Feld | Bezeichnung | Wert | Einheit | Notiz (Quelle / Rechenweg / Annahme) |
+
+Klimaktiv-Feld: Pfad mit `>` und Maskenfeld-Parameter inline mit `·`,
+z.B. `Postproduktion Bild > Arbeitsplatz (Ökostrom) · Anzahl: 1 · Monitore: 2`
+
+Offene Stellen erhalten einen Verweis auf die zugehörige Rückfragennummer
+aus Ausgabe C (z.B. "→ C3") in der Notiz-Spalte.
+
+Kein Fließtext, keine Nummerierung, keine Emojis in den Tabellenzeilen.
 
 **Ausgabe C: Rückfragen an Produzentin**
 Priorisiert (Prio 1/2/3). Nur was wirklich nötig ist.
