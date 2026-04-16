@@ -154,6 +154,12 @@ In der Notiz-Spalte der Catering-Einträge dokumentieren wenn IV.3
 nicht anwendbar ist, z.B.:
 "IV.3 nicht anwendbar (nur 2 DT, kein externes Catering)."
 
+**IV.5 Kein Einweggeschirr — kein Bedingungsvorbehalt:**
+Gilt für die gesamte Produktion und Postproduktion,
+unabhängig von externem Catering. Keine Rückfrage nötig —
+immer als Handlungshinweis in Ausgabe D aufnehmen.
+Formulierung siehe SKILL.md, Ausgabe D, Punkt 2.
+
 | Kalkulations-Position | Klimaktiv-Feld | Regel |
 |---|---|---|
 | Catering Set (€/Tag × Tage) | Essen > Vollverpflegung (ohne Frühstück) | Portionen = Drehtage × Personen am Set |

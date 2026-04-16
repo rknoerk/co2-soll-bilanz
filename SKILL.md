@@ -126,15 +126,54 @@ Zweck: Produzentin kann Antworten direkt per Referenznummer zurückmelden
 (z.B. "C1: Ökostrom, C3: Diesel"). Kein Interpretationsspielraum welche
 Frage gemeint ist.
 
-**Hintergrund Ausgabe D:**
+**Ausgabe D: Hinweise & Muss-Vorgaben**
+
+Abschnitt D ist fester Bestandteil jeder Bilanz — auch wenn
+er kurz ausfällt. Er enthält keine Eingabelisten und keine
+Rückfragen, sondern Handlungshinweise und Statusnotizen.
+
+Format: Freitext unter `###`-Überschriften, keine Tabelle.
+
+Inhalt — immer prüfen:
+
+1. Muss-Vorgaben die nicht anwendbar sind:
+   Kurz dokumentieren warum (z.B. "IV.3 nicht anwendbar:
+   weniger als 3 DT/Woche, kein externes Catering").
+
+2. Muss-Vorgaben die immer gelten und keinen C-Eintrag
+   brauchen — als Handlungshinweis formulieren:
+
+   IV.5 Kein Einweggeschirr (Muss-Vorgabe, streichbar):
+   Einweggeschirr, -besteck, -becher und Einwegflaschen
+   sollen während der gesamten Produktion und
+   Postproduktion nicht bereitgestellt werden — auch
+   ohne externen Caterer. Die Produktion sorgt dafür,
+   dass Mehrwegalternativen am Set und in der
+   Postproduktion verfügbar sind.
+   Hinweis: Im Rahmen der 6-von-25-Regel können bis zu
+   6 Muss-Vorgaben bewusst gestrichen werden — IV.5
+   wäre ein möglicher Kandidat wenn die Umsetzung im
+   konkreten Produktionskontext nicht realisierbar ist.
+
+3. Organisatorisches (wenn bekannt):
+   - KlimAktiv-Lizenz: Wer stellt sie bereit?
+     (Sender, Förderung, Eigenleistung)
+   - Timing: Wann muss die SOLL-Bilanz fertig sein?
+   - Sonstige offene Punkte die nicht in A/B/C passen.
+
+Ton: sachlich-kooperativ, keine Verbotssprache,
+keine Polizisten-Formulierungen. Die Produktion ist
+Partnerin, nicht Adressat von Anforderungskatalogen.
+
+**Hintergrund Ausgabe E:**
 Das Green-Motion-Nachweisverfahren erfolgt in zwei Stufen. Stufe 1 ist
 immer einzureichen. Stufe 2 wird von PwC Deutschland anlassbezogen oder
 per Zufallsstichprobe (ca. 5–10 % aller Produktionen) angefordert und
 verlangt Originaldokumente — teils solche, die nur am Drehtag selbst
-gesichert werden können. Ausgabe D macht die Produzentin frühzeitig
+gesichert werden können. Ausgabe E macht die Produzentin frühzeitig
 auf diese Dokumentationspflichten aufmerksam.
 
-**Ausgabe D: Stufe-2-Vorsorge**
+**Ausgabe E: Stufe-2-Vorsorge**
 Nur ausgeben wenn mindestens eine relevante Muss-Vorgabe als eingehalten
 erkannt oder als geplant markiert wird.
 Trigger-Logik und vollständige Dokumentenliste: siehe `references/stufe2_vorsorge.md`.
