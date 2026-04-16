@@ -27,6 +27,35 @@ Baustrom-Regelung gilt wie in mapping_regeln_basis.md beschrieben.
 Bei kleinen Doku-Teams (2–4 Personen) ist Fall 3 (Akku-Laden im Hotel/Büro)
 häufig — aktiv erfragen, nicht automatisch Baustrom annehmen.
 
+**Motive: Bilanzierungsentscheidung bei Doku/Reportage**
+
+Grundregel: Motive nur bilanzieren wenn die Produktion
+einen zusätzlichen Energieverbrauch verursacht.
+Gilt für Strom UND Wärme separat.
+
+Entscheidungsbaum:
+
+1. Wird die Location extra für den Dreh gebucht oder
+   bereitgestellt (z.B. Interview-Studio, Meetingraum, Messehalle)?
+   → Strom: bilanzieren
+   → Wärme: bilanzieren (wenn Heizperiode, ca. Oktober–April)
+
+2. Location läuft unabhängig vom Dreh (Wohngebäude, Büro,
+   öffentlicher Raum, Außengelände)?
+   → Strom: NICHT bilanzieren
+   → Wärme: NICHT bilanzieren — Gebäude wird sowieso beheizt
+
+3. Location wurde für den Dreh eigens aufgeheizt oder
+   länger als üblich geöffnet/beleuchtet?
+   → Strom/Wärme: bilanzieren (Delta-Verbrauch)
+   → Prio-2-Rückfrage wenn unklar
+
+Prio-3-Rückfrage (Standard wenn unklar):
+"[Motiv X]: Wurde die Location extra für den Dreh
+bereitgestellt/gebucht — oder läuft sie sowieso?
+(Entscheidet ob wir Strom und ggf. Heizung bilanzieren.
+Heizung nur relevant bei Dreh in der Heizperiode, ca. Okt–Apr.)"
+
 **Transport:**
 - PKW-Anteil hoch: Kilometergelder genau auswerten
 - Locationscouts als eigene Position wenn ausgewiesen
