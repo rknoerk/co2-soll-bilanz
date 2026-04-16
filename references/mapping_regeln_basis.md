@@ -151,6 +151,12 @@ Standardfall SOLL-Bilanz: immer "Pkw (Distanzschätzung)" verwenden.
 | Kostüm Miete (€) | Kostüme > Kostümmiete/Weiternutzung | Direktübernahme |
 | Anfertigung Kostüm (€) | Kostüme > Kostümkauf | Wird wie Kauf behandelt |
 
+**Druckerpapier — vereinfachte SOLL-Bilanz:**
+Bei vereinfachter SOLL-Erfassung (Kriterium I.3) wird Druckerpapier
+NICHT als Rückfrage aufgenommen. Kein C-Eintrag, kein Tabelleneintrag.
+Für die spätere IST-Bilanz notieren: ca. Anzahl Ries (1 Ries = 500 Blatt).
+Hinweis in eigene Notizen des GC, nicht in Ausgabe A/B/C.
+
 ---
 
 ## 2. Standardannahmen
