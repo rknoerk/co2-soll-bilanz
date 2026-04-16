@@ -96,6 +96,7 @@ Der Skill sollte mit Schritt 0 (Arbeitsweise festlegen) starten.
 | `references/stufe2_vorsorge.md` | Stufe-2-Vorsorge: Trigger-Mapping für PwC-Nachweisdokumente |
 | `references/pwc_prueflogik.md` | PwC-Prüfkriterien pro Muss-Vorgabe |
 | `references/pwc_excel_schema.json` | JSON-Schema des PwC-Nachweisverfahren-Excel (209 Felder) |
+| `references/klimaktiv_stammdaten.json` | Stammdaten-Maske des Klimaktiv-Rechners (19 Felder, originalgetreu) |
 
 ---
 
