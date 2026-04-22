@@ -170,7 +170,7 @@
           ],
           "eingabe": {
             "menge_einheit": "Fläche in m² oder Arbeitstage",
-            "parameter": ["Gebäudeart", "Dauer in Tagen oder Monaten"]
+            "parameter": ["Gebäudeart", "Dauer in Tagen oder Monaten", "Arbeitsplatz-Setup (Laptop / Laptop mit 1 Monitor / Laptop mit 2 Monitoren / PC mit 1 Monitor / PC mit 2 Monitoren)", "Menge in Stunden (nicht Tage — 1 Tag × 10h = 10h)"]
           }
         }
       ]

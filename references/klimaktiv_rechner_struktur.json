@@ -226,6 +226,28 @@
               "typ": "auswahl",
               "optionen": ["Tage (1–60)", "Monate (3–12)"]
             },
+            "arbeitsplatz_setup": {
+              "typ": "auswahl",
+              "gilt_fuer": [
+                "Büros: Arbeitsplatz",
+                "Büros: Arbeitsplatz (Ökostrom)"
+              ],
+              "optionen": [
+                "Laptop",
+                "Laptop mit 1 Monitor",
+                "Laptop mit 2 Monitoren",
+                "PC mit 1 Monitor",
+                "PC mit 2 Monitoren"
+              ]
+            },
+            "menge_arbeitsplatz": {
+              "einheit": "Stunden",
+              "gilt_fuer": [
+                "Büros: Arbeitsplatz",
+                "Büros: Arbeitsplatz (Ökostrom)"
+              ],
+              "hinweis": "Einheit ist Stunden, nicht Tage. Standard: 1 Tag × 10h = 10h."
+            },
             "bezeichnung": { "typ": "freitext" },
             "notiz": { "typ": "freitext" }
           }
