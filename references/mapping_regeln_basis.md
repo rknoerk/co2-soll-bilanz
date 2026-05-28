@@ -9,7 +9,7 @@ oder jede Kombination davon.
 
 ---
 
-## 0. Stammdaten des Klimaktiv-Rechners
+## 0. Stammdaten des KlimAktiv-Rechners
 
 Vollständiges Feldschema mit Typen und Dropdown-Optionen: `references/klimaktiv_stammdaten.json`
 
@@ -22,7 +22,7 @@ Vollständiges Feldschema mit Typen und Dropdown-Optionen: `references/klimaktiv
 | Genre | Kalkulation Deckblatt |
 | Herstellungsverfahren | Kalkulation. Exakte Optionen im Rechner: Keine Angabe / EB-Dreh / TV-Aussenübertragung (live/Event/Festival) / Studio / On location / Computer based / LED-Studio/Volume / Virtual Production / Mix / Sonstige |
 | Medium | Kalkulation (Kino / TV / Streaming) |
-| Art | Kalkulation. Exakte Optionen im Klimaktiv-Rechner: Keine Angabe / Eigenproduktion (TV und VOD) / Auftragsproduktion / Co-Produktion / Unabhängige und geförderte Produktion |
+| Art | Kalkulation. Exakte Optionen im KlimAktiv-Rechner: Keine Angabe / Eigenproduktion (TV und VOD) / Auftragsproduktion / Co-Produktion / Unabhängige und geförderte Produktion |
 | Länge [min] | Kalkulation Deckblatt |
 | Drehtage | Kalkulation Deckblatt, Herstellungsplan |
 | Postproduktion (Tage) | Kalkulation (Rohschnitt + Feinschnitt + Mischung) |
@@ -34,7 +34,7 @@ Vollständiges Feldschema mit Typen und Dropdown-Optionen: `references/klimaktiv
 | Kommentar | Internes Notizfeld im Rechner — kein Mapping nötig, GC füllt selbst. |
 
 **Herstellungskosten brutto [EUR]:**
-Optionales Feld im Klimaktiv-Rechner. Wenn in den Produktionsunterlagen
+Optionales Feld im KlimAktiv-Rechner. Wenn in den Produktionsunterlagen
 vorhanden, immer auslesen und in Ausgabe A aufnehmen.
 Quelle: z.B. Kalkulation, Kalkulationsprotokoll, E-Mail.
 Definition: Gesamtherstellungskosten inkl. Handlungskosten und Gewinn,
@@ -80,7 +80,7 @@ Faustregel: Wenn kein Aggregat, kein Bühnen-LKW, kein Setbau
 | Drehtage ohne Aggregat | Technische Ausrüstung > Baustrom (Schätzung) | Drehtage gesamt minus Aggregat-Tage |
 
 **Baustrom — drei Fälle:**
-"Baustrom" im Klimaktiv-Rechner meint einen Baustromanschluss am Set
+"Baustrom" im KlimAktiv-Rechner meint einen Baustromanschluss am Set
 (Baustromkasten), nicht das allgemeine Laden von Geräten.
 Vor dem Anlegen eines Baustrom-Eintrags immer prüfen welcher Fall vorliegt:
 
@@ -120,7 +120,7 @@ bereits erfasst.
 
 **Pkw (Distanzschätzung) — Kraftstofftyp irrelevant:**
 Wenn die Quelle "Pkw (Distanzschätzung)" gewählt wird, verwendet der
-Klimaktiv-Rechner automatisch einen gewichteten Mix aus Benzin, Diesel,
+KlimAktiv-Rechner automatisch einen gewichteten Mix aus Benzin, Diesel,
 Elektro und Hybrid. Der Kraftstofftyp muss in diesem Fall NICHT erfragt
 werden — keine Rückfrage C notwendig.
 Kraftstofftyp nur relevant wenn eine spezifische Quelle gewählt wird

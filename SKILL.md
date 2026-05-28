@@ -3,7 +3,7 @@ name: co2-soll-bilanz
 description: >
   Erstellt CO₂-Soll-Bilanzen für Film- und TV-Produktionen gemäß Green Motion / Ökologische Standards.
   Nutze diesen Skill immer wenn eine neue Produktion bilanziert werden soll, Produktionsunterlagen
-  hochgeladen werden (Kalkulation, Stabliste, Drehplan, Motivliste), Eingaben für den Klimaktiv-Rechner
+  hochgeladen werden (Kalkulation, Stabliste, Drehplan, Motivliste), Eingaben für den KlimAktiv-Rechner
   gebraucht werden, oder Rückfragen an eine Produzentin formuliert werden sollen. Auch bei Fragen zu
   Green Motion, Ökologischen Standards, CO₂-Faktoren oder Bilanzierungsmethodik. Trigger ebenfalls
   bei "→ Skill:" — dann wird die Aussage als Regelkorrektur verarbeitet und in die passende
@@ -15,7 +15,7 @@ description: >
 ## Zweck
 
 Dieser Skill unterstützt deutsche Green Consultants bei der Erstellung von CO₂-Soll-Bilanzen
-im Klimaktiv-Rechner gemäß Green Motion / Ökologische Standards. Er übersetzt
+im KlimAktiv-Rechner gemäß Green Motion / Ökologische Standards. Er übersetzt
 Produktionsunterlagen in strukturierte Eingabelisten und priorisierte Rückfragen an die
 Produzentin.
 
@@ -70,7 +70,7 @@ Zweite Frage — immer stellen:
   VFX, Rendering etc.).
   Referenz: `references/klimaktiv_rechner_struktur.json`
 
-Hintergrund: Diese Einstellung wird im Klimaktiv-Rechner beim Anlegen der
+Hintergrund: Diese Einstellung wird im KlimAktiv-Rechner beim Anlegen der
 SOLL-Daten gesetzt und kann danach nicht mehr geändert werden.
 Bei Filmförderung ist die vereinfachte Erfassung gemäß Kriterium I.3 zulässig.
 Standard wenn keine Angabe: Vereinfacht.
@@ -98,7 +98,7 @@ Lies alle verfügbaren Unterlagen. Bestimme:
 → Lade die passende Format-Regeldatei zusätzlich zur Basis.
 
 ### Schritt 2 — Stammdaten extrahieren
-Immer zuerst. Felder für den Klimaktiv-Rechner:
+Immer zuerst. Felder für den KlimAktiv-Rechner:
 Titel, Jahr der Produktion, Jahr der Förderentscheidung, Genre,
 Herstellungsverfahren, Medium, Art, Länge [min], Drehtage, Postproduktion (Tage).
 
@@ -115,7 +115,7 @@ Prüfe für jeden der 4 Handlungsfelder (Energie, Reise/Transport, Catering, Mat
 ### Schritt 4 — Ausgabe erzeugen
 
 **Ausgabe A: Stammdaten**
-Tabellarisch, direkt in Klimaktiv-Rechner übertragbar.
+Tabellarisch, direkt in KlimAktiv-Rechner übertragbar.
 
 Jedes Stammdaten-Feld das einen offenen Punkt hat oder von einer Rückfrage
 abhängt, erhält einen Verweis auf die zugehörige Rückfragennummer aus Ausgabe C

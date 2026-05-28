@@ -1,6 +1,6 @@
 # Klimaktiv-Workflow Skill: CO2-Soll-Bilanz
 
-KI-gestützter Workflow für die Erstellung von CO₂-Soll-Bilanzen im Klimaktiv-Rechner
+KI-gestützter Workflow für die Erstellung von CO₂-Soll-Bilanzen im KlimAktiv-Rechner
 (Green Motion / Ökologische Standards).
 
 **Version 0.2.0** · Entwickelt von Robert Knörk, Green Consultant, Bremen.
@@ -10,16 +10,16 @@ KI-gestützter Workflow für die Erstellung von CO₂-Soll-Bilanzen im Klimaktiv
 ## Was dieser Skill tut
 
 Übersetzt Produktionsunterlagen (Kalkulation, Stabliste, Drehplan, Herstellungsplan, E-Mails)
-in strukturierte Eingabelisten für den Klimaktiv-Rechner — inklusive priorisierter Rückfragen
+in strukturierte Eingabelisten für den KlimAktiv-Rechner — inklusive priorisierter Rückfragen
 an die Produzentin für alles was noch fehlt.
 
 Ausgabe:
-- Stammdaten für den Klimaktiv-Rechner
+- Stammdaten für den KlimAktiv-Rechner
 - Eingabeliste pro Handlungsfeld (Energie / Reise+Transport / Catering / Materialeinsatz)
 - Rückfragen-Template (Prio 1/2/3)
 
 Grundlage: SOLL-Erfassung gemäß Kriterium I.3 der Ökologischen Standards.
-Unterstützt sowohl die vereinfachte als auch die vollständige Erfassung im Klimaktiv-Rechner.
+Unterstützt sowohl die vereinfachte als auch die vollständige Erfassung im KlimAktiv-Rechner.
 
 ---
 
@@ -38,7 +38,7 @@ Sender-Schema, Stabliste, Drehplan, Motivliste, E-Mails, WhatsApp-Nachrichten. F
 und Vollständigkeit sind egal — der Skill arbeitet mit dem was vorliegt.
 
 **2. Übersetzen** — Kalkulationspositionen in Euro und Tagen werden nach hinterlegten Regeln
-in die Eingabefelder des Klimaktiv-Rechners übersetzt: km, Personenkilometer, Nächte,
+in die Eingabefelder des KlimAktiv-Rechners übersetzt: km, Personenkilometer, Nächte,
 Portionen, m², Nutzungstage. Jeder Rechenweg wird in der Notiz dokumentiert.
 
 **3. Lücken markieren** — Was direkt ableitbar ist, geht in die Eingabeliste. Was geschätzt
@@ -51,7 +51,7 @@ Produzentin (C1, C2, C3...) werden nach Rückmeldung eingearbeitet — der Skill
 die Eingabeliste, der GC entscheidet ob das Ergebnis trägt.
 
 **5. Eingabeliste übergeben** — Das Ergebnis ist eine tabellarische Liste die direkt in den
-Klimaktiv-Rechner übertragen werden kann: Handlungsfeld, Quelle, Bezeichnung, Wert, Einheit,
+KlimAktiv-Rechner übertragen werden kann: Handlungsfeld, Quelle, Bezeichnung, Wert, Einheit,
 Notiz.
 
 ---
@@ -103,7 +103,7 @@ Der Skill sollte mit Schritt 0 (Arbeitsweise festlegen) starten.
 | `references/stufe2_vorsorge.md` | Stufe-2-Vorsorge: Trigger-Mapping für PwC-Nachweisdokumente |
 | `references/pwc_prueflogik.md` | PwC-Prüfkriterien pro Muss-Vorgabe |
 | `references/pwc_excel_schema.json` | JSON-Schema des PwC-Nachweisverfahren-Excel (209 Felder) |
-| `references/klimaktiv_stammdaten.json` | Stammdaten-Maske des Klimaktiv-Rechners (20 Felder inkl. SOLL-Erfassungsmodus, originalgetreu) |
+| `references/klimaktiv_stammdaten.json` | Stammdaten-Maske des KlimAktiv-Rechners (20 Felder inkl. SOLL-Erfassungsmodus, originalgetreu) |
 
 ---
 
@@ -117,7 +117,7 @@ Korrekturen fließen über den `→ Skill:` Trigger direkt ins Repo:
 4. Nächste Session: Skill ist aktualisiert
 
 **Wichtig:** Keine Euro-Werte, Emissionsfaktoren oder Jahreszahlen in den Mapping-Dateien.
-Der Skill speichert Methoden — keine Daten. Daten liefert der Klimaktiv-Rechner.
+Der Skill speichert Methoden — keine Daten. Daten liefert der KlimAktiv-Rechner.
 
 ---
 
@@ -135,7 +135,7 @@ Geplant:
 
 ## Wissensquellen
 
-- **Klimaktiv-Rechner:** [go.greenshooting.de](https://go.greenshooting.de)
+- **KlimAktiv-Rechner:** [go.greenshooting.de](https://go.greenshooting.de)
 - **Ökologische Standards:** September 2025, KlimAktiv gGmbH
 - **Leitlinien CO₂-Bilanzierung:** Arbeitskreis Green Shooting, BVGCD
 - **Brain BVGCD:** Gemeinsames Wissenssystem des Bundesverbands Green Consultants Deutschland (lesend)

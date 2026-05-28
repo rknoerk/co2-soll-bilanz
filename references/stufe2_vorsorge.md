@@ -45,7 +45,7 @@ löst welchen Hinweis in Ausgabe E aus.
 | III.2 Flüge | Flüge in Bilanz eingetragen | Buchungsbelege aller Flugreisen. | Liegen in der Buchhaltung. Sammeln und ablegen. |
 | III.3 Emissionsarme PKW | Fahrzeuge in Bilanz eingetragen | Bei Mietfahrzeugen: Rechnung mit Kennzeichen und Antriebsart. Bei Eigentum: Kopie Zulassungspapiere. | Mietbelege ohnehin in der Buchhaltung. |
 | III.6 Euro 6 Diesel | Diesel-Fahrzeuge in Bilanz eingetragen | Bei Mietfahrzeugen: Rechnung mit Kennzeichen und Emissionsklasse. Bei Eigentum: Zulassungspapiere. Spezialfahrzeuge: Fotodokumentation der Ausbauten. | Emissionsklasse steht auf dem Fahrzeugschein. |
-| I.3 / I.4 CO₂-Bilanzen | Immer | SOLL- und IST-Datensatz aus dem Klimaktiv-Rechner exportieren (Projektdatei oder Ausdruck mit allen Aktivitätsdaten). | Export direkt nach Fertigstellung der Bilanz anlegen — nicht erst wenn PwC fragt. |
+| I.3 / I.4 CO₂-Bilanzen | Immer | SOLL- und IST-Datensatz aus dem KlimAktiv-Rechner exportieren (Projektdatei oder Ausdruck mit allen Aktivitätsdaten). | Export direkt nach Fertigstellung der Bilanz anlegen — nicht erst wenn PwC fragt. |
 | I.2 Green Consultant | Tätigkeit vor 2020 | Aus-/Fortbildungszeugnisse oder Nachweis der Green-Consultant-Tätigkeit vor 2020. | Nur relevant wenn Erstzertifizierung vor 2020 lag. |
 
 ---

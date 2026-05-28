@@ -63,7 +63,7 @@ Bahn schlägt PKW um Faktor ~56 auf vergleichbarer Strecke.
 Flug liegt zwischen PKW und Bahn — je nach Strecke und Auslastung.
 Reisebus ist nach Bahn das emissionsärmste Transportmittel.
 
-Diese Relation ist stabil — genaue Faktoren liefert der Klimaktiv-Rechner.
+Diese Relation ist stabil — genaue Faktoren liefert der KlimAktiv-Rechner.
 
 ---
 

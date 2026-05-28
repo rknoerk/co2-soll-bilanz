@@ -74,7 +74,7 @@ Wenn eine Vorgabe nicht anwendbar ist (z.B. keine Übernachtungen), gilt sie als
 
 ## Für die Soll-Bilanz relevant
 
-Die Muss-Vorgaben beeinflussen die Eingaben im Klimaktiv-Rechner:
+Die Muss-Vorgaben beeinflussen die Eingaben im KlimAktiv-Rechner:
 - **II.1–II.4** → Ökostrom-Felder (schlägt sich in niedrigeren Emissionswerten nieder)
 - **III.3** → Fahrzeugtyp (E-Fahrzeug statt Diesel)
 - **III.6** → Fahrzeugnorm (Euro 6 als Standard bei Mietfahrzeugen)
