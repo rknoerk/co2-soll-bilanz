@@ -1,4 +1,4 @@
-# Klimaktiv-Workflow Skill: CO2-Soll-Bilanz
+# KlimAktiv-Workflow Skill: CO2-Soll-Bilanz
 
 KI-gestützter Workflow für die Erstellung von CO₂-Soll-Bilanzen im KlimAktiv-Rechner
 (Green Motion / Ökologische Standards).
@@ -31,7 +31,10 @@ Unterstützt sowohl die vereinfachte als auch die vollständige Erfassung im Kli
 Erfassungsmodus (vereinfacht oder vollständig) und PwC-Nachweisverfahren (ja/nein).
 Der Erfassungsmodus bestimmt den Umfang der Eingabeliste — vereinfacht reicht für die
 meisten geförderten Produktionen, vollständig erfasst zusätzlich Büromaterial, Requisiten,
-Abfall und detaillierte Postproduktions-Quellen.
+Abfall und detaillierte Postproduktions-Quellen. Das PwC-Nachweisverfahren ist das
+zweistufige Prüfverfahren für das Green Motion Label — wenn es durchgeführt wird,
+erzeugt der Skill zusätzlich eine Stufe-2-Vorsorgeliste mit Dokumenten die frühzeitig
+gesichert werden müssen (teils nur am Drehtag selbst möglich).
 
 **1. Lesen** — Der Skill nimmt entgegen was da ist: FFA-Kalkulation, SESAM-Kalkulation,
 Sender-Schema, Stabliste, Drehplan, Motivliste, E-Mails, WhatsApp-Nachrichten. Format
@@ -52,7 +55,8 @@ die Eingabeliste, der GC entscheidet ob das Ergebnis trägt.
 
 **5. Eingabeliste übergeben** — Das Ergebnis ist eine tabellarische Liste die direkt in den
 KlimAktiv-Rechner übertragen werden kann: Handlungsfeld, Quelle, Bezeichnung, Wert, Einheit,
-Notiz.
+Notiz. Dazu Hinweise zu Muss-Vorgaben — und bei PwC-Nachweisverfahren eine
+Stufe-2-Vorsorgeliste mit Dokumenten, Zeitfenstern und Zuständigkeiten.
 
 ---
 
@@ -91,6 +95,7 @@ Der Skill sollte mit Schritt 0 (Arbeitsweise festlegen) starten.
 ## Struktur
 | Datei | Inhalt |
 |---|---|
+| `CONTEXT.md` | Domänensprache — Glossar aller Fachbegriffe |
 | `SKILL.md` | Workflow, Trigger, Loop-Logik |
 | `references/mapping_regeln_basis.md` | Übersetzungsregeln, Annahmen, Rückfragen-Logik |
 | `references/mapping_regeln_spielfilm.md` | Ergänzungen für Spielfilm / Kurzfilm |

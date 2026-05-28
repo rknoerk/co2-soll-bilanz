@@ -60,6 +60,18 @@ _Avoid_: Detailmodus, Profi-Modus
 Verbindliche Anforderung der Ökologischen Standards (25 gesamt, 5 Handlungsfelder). Max. 6 Abweichungen erlaubt (6-von-25-Regel). Nicht anwendbare Vorgaben gelten als erfüllt.
 _Avoid_: Pflichtkriterium, Mindeststandard
 
+### Green Motion & Nachweisverfahren
+
+**Green Motion**:
+Branchenlabel für nachhaltige Film- und TV-Produktionen in Deutschland. Voraussetzung: Einhaltung der Ökologischen Standards (max. 6 Abweichungen), CO₂-Bilanzierung (SOLL + IST) und Abschlussbericht. Vergabe nach erfolgreichem **PwC-Nachweisverfahren**.
+_Avoid_: Green Shooting (das ist die Initiative/Plattform, nicht das Label), Nachhaltigkeitszertifikat
+
+
+
+**PwC-Nachweisverfahren**:
+Zweistufiges Prüfverfahren für das Green Motion Label, durchgeführt von PwC Deutschland. Stufe 1 ist immer einzureichen. Stufe 2 wird anlassbezogen oder per Stichprobe angefordert (ca. 5–10 %) und verlangt Originaldokumente.
+_Avoid_: Audit, Zertifizierung, Prüfung
+
 ### Workflow
 
 **Rückfrage**:
