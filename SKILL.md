@@ -19,8 +19,9 @@ im Klimaktiv-Rechner gemäß Green Motion / Ökologische Standards. Er übersetz
 Produktionsunterlagen in strukturierte Eingabelisten und priorisierte Rückfragen an die
 Produzentin.
 
-**Systemgrenze:** Nur vorlaufende Bilanz (SOLL). Vereinfachte Erfassung gemäß Kriterium I.3
-der Ökologischen Standards. IST-Bilanzierung ist nicht Gegenstand dieses Skills.
+**Systemgrenze:** Nur vorlaufende Bilanz (SOLL). Unterstützt sowohl die vereinfachte
+Erfassung (gemäß Kriterium I.3) als auch die vollständige SOLL-Erfassung.
+IST-Bilanzierung ist nicht Gegenstand dieses Skills.
 
 ---
 
@@ -31,8 +32,8 @@ der Ökologischen Standards. IST-Bilanzierung ist nicht Gegenstand dieses Skills
 | `references/mapping_regeln_basis.md` | Immer — Übersetzungsregeln, Standardannahmen, Rückfragen-Logik |
 | `references/mapping_regeln_spielfilm.md` | Bei Spielfilm, Kurzfilm, Kinoproduktion |
 | `references/mapping_regeln_doku.md` | Bei Dokumentarfilm, Reportage, Magazin |
-| `references/klimaktiv_struktur_vereinfacht.json` | Standard-Nachschlagewerk für Eingabefelder |
-| `references/klimaktiv_struktur.json` | Vollständige Struktur mit allen 200+ Quellen — für Sonderfälle wenn detaillierte Daten vorliegen |
+| `references/klimaktiv_rechner_struktur_vereinfacht.json` | Eingabefelder für vereinfachte SOLL-Erfassung (Standard). Materialeinsatz reduziert, Postpro nur Arbeitsplatz-Quellen. |
+| `references/klimaktiv_rechner_struktur.json` | Eingabefelder für vollständige SOLL-Erfassung. Alle 200+ Quellen, 6 Materialeinsatz-Themen, Postpro mit Schnitt/Rendering-Quellen. |
 | `references/onboarding_fragebogen.md` | Wenn neue Produktion aufgesetzt wird |
 | `references/oekologische_standards_destilliert.md` | Bei Fragen zu Muss-Vorgaben, Green Motion Label |
 | `references/leitlinien_bilanzierung_destilliert.md` | Bei Methodenfragen, Systemgrenzen, Wesentlichkeit |
@@ -59,6 +60,22 @@ B oder C empfehlen und kurz begründen.
 Standard wenn keine Angabe: C (Hybrid).
 
 Zweite Frage — immer stellen:
+"Vereinfachte oder vollständige SOLL-Erfassung?"
+
+→ Vereinfacht (Standard): Materialeinsatz nur Kulissen-Bau + Kostüme.
+  Postproduktion nur Arbeitsplatz-Quellen.
+  Referenz: `references/klimaktiv_rechner_struktur_vereinfacht.json`
+→ Vollständig: Materialeinsatz mit 6 Themen (+ Büromaterial, Requisiten,
+  Abfall, Sonstiges). Postproduktion mit allen Quellen (Schnitt, Farbkorrektur,
+  VFX, Rendering etc.).
+  Referenz: `references/klimaktiv_rechner_struktur.json`
+
+Hintergrund: Diese Einstellung wird im Klimaktiv-Rechner beim Anlegen der
+SOLL-Daten gesetzt und kann danach nicht mehr geändert werden.
+Bei Filmförderung ist die vereinfachte Erfassung gemäß Kriterium I.3 zulässig.
+Standard wenn keine Angabe: Vereinfacht.
+
+Dritte Frage — immer stellen:
 "Wird für diese Produktion das PwC-Nachweisverfahren
 durchgeführt?"
 

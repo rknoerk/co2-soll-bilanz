@@ -2,9 +2,10 @@
   "meta": {
     "quelle": "Green Shooting CO2-Rechner 4.0, KlimAktiv gGmbH",
     "url": "https://go.greenshooting.de",
-    "erfasst_am": "2026-04-11",
-    "erfasst_von": "Robert Knörk / Claude Sonnet",
-    "hinweis": "Direkt aus dem Rechner extrahiert via Browser-Automatisierung. Alle Quellen-Bezeichnungen originalgetreu übernommen."
+    "erfasst_am": "2026-05-28",
+    "erfasst_von": "Robert Knörk / Claude Opus",
+    "hinweis": "Direkt aus dem Rechner extrahiert via Browser-Automatisierung. Alle Quellen-Bezeichnungen originalgetreu übernommen.",
+    "modus": "Vollständige SOLL-Erfassung (nicht vereinfacht)"
   },
   "sektoren": [
     {
@@ -110,7 +111,7 @@
               "typ": "auswahl",
               "optionen": [
                 "Wohnung", "Einfamilienhaus",
-                "Bürogebäude", "Bürogebäude, klimatisiert", "Bürogebäude, nur beheizt",
+                "Bürogebäude", "Bürogebäude, klimatisiert",
                 "Hotel: 1 und 2 Sterne", "Hotel: 3 Sterne", "Hotel: 4 und 5 Sterne",
                 "Pension einfach", "Herberge, Ferienheim",
                 "Bar, Kneipe", "Restaurant", "Kantine, Mensa",
@@ -128,7 +129,16 @@
             },
             "dauer": {
               "typ": "auswahl",
-              "optionen": ["<1 Tag", "1 Tag", "1,5 Tage", "2 Tage", "2,5 Tage", "... bis 60 Tage", "3 Monate", "... bis 12 Monate"]
+              "optionen": [
+                "<1 Tag", "1 Tag", "1,5 Tage", "2 Tage", "2,5 Tage",
+                "3 Tage", "4 Tage", "5 Tage", "6 Tage",
+                "1 Woche", "8 Tage", "9 Tage", "10 Tage", "11 Tage", "12 Tage", "13 Tage",
+                "2 Wochen", "15 Tage", "16 Tage", "17 Tage", "18 Tage", "19 Tage", "20 Tage",
+                "3 Wochen", "22 Tage", "23 Tage", "24 Tage", "25 Tage", "26 Tage", "27 Tage",
+                "4 Wochen", "29 Tage",
+                "1 Monat", "2 Monate", "3 Monate", "4 Monate", "5 Monate", "6 Monate",
+                "7 Monate", "8 Monate", "9 Monate", "10 Monate", "11 Monate", "1 Jahr"
+              ]
             },
             "bezeichnung": { "typ": "freitext" },
             "notiz": { "typ": "freitext" }
@@ -154,12 +164,29 @@
             "Extern ermittelte Emissionen"
           ],
           "eingabefelder": {
-            "menge": { "einheit": "Arbeitsplätze (Anzahl)", "pflicht": true },
+            "menge": { "einheit": "Stunden (Tage × 10h, Filmproduktion)", "pflicht": true },
+            "schnitt_setup": {
+              "typ": "auswahl",
+              "gilt_fuer": ["Schnitt (Schätzung)", "Schnitt (Schätzung, Ökostrom)"],
+              "optionen": [
+                "Klein: Laptop, externer Bildschirm, Lautsprecher, Festplatte",
+                "Mittel: PC, 2 Videomonitore, Stereo-Lautsprecher, NAS",
+                "Groß: Videoworkstation, 2 Bildschirme, Referenzmonitor, Surround-Lautsprecher, Medienserver"
+              ],
+              "standard": "Mittel: PC, 2 Videomonitore, Stereo-Lautsprecher, NAS"
+            },
             "anzahl_monitore": {
               "typ": "auswahl",
-              "optionen": ["1 Monitor", "2 Monitore", "3 Monitore", "4 Monitore"]
+              "gilt_fuer": ["Postproduktion Bild: Arbeitsplatz", "Postproduktion Bild: Arbeitsplatz (Ökostrom)"],
+              "optionen": ["1 Monitor", "2 Monitore", "3 Monitore", "4 Monitore", "5 Monitore", "6 Monitore"],
+              "standard": "2 Monitore"
             },
-            "arbeitstage": { "einheit": "Stunden (Tage × 10h, Filmproduktion)", "typ": "auswahl" },
+            "anzahl_arbeitsplätze": {
+              "typ": "auswahl",
+              "gilt_fuer": ["Postproduktion Bild: Arbeitsplatz", "Postproduktion Bild: Arbeitsplatz (Ökostrom)"],
+              "optionen": "1–100",
+              "standard": 1
+            },
             "bezeichnung": { "typ": "freitext" },
             "notiz": { "typ": "freitext" }
           }
@@ -176,8 +203,19 @@
             "Extern ermittelte Emissionen"
           ],
           "eingabefelder": {
-            "menge": { "einheit": "Arbeitsplätze (Anzahl)", "pflicht": true },
-            "arbeitstage": { "einheit": "Stunden (Tage × 10h, Filmproduktion)", "typ": "auswahl" },
+            "menge": { "einheit": "Stunden (Tage × 10h, Filmproduktion)", "pflicht": true },
+            "anzahl_monitore": {
+              "typ": "auswahl",
+              "gilt_fuer": ["Postproduktion Ton: Arbeitsplatz", "Postproduktion Ton: Arbeitsplatz (Ökostrom)"],
+              "optionen": ["1 Monitor", "2 Monitore", "3 Monitore", "4 Monitore", "5 Monitore", "6 Monitore"],
+              "standard": "2 Monitore"
+            },
+            "anzahl_arbeitsplätze": {
+              "typ": "auswahl",
+              "gilt_fuer": ["Postproduktion Ton: Arbeitsplatz", "Postproduktion Ton: Arbeitsplatz (Ökostrom)"],
+              "optionen": "1–100",
+              "standard": 1
+            },
             "bezeichnung": { "typ": "freitext" },
             "notiz": { "typ": "freitext" }
           }
@@ -195,8 +233,19 @@
             "Extern ermittelte Emissionen"
           ],
           "eingabefelder": {
-            "menge": { "einheit": "Arbeitsplätze oder Anzahl", "pflicht": true },
-            "arbeitstage": { "einheit": "Tage", "typ": "auswahl" },
+            "menge": { "einheit": "Stunden (Tage × 10h, Filmproduktion)", "pflicht": true },
+            "anzahl_monitore": {
+              "typ": "auswahl",
+              "gilt_fuer": ["Postproduktion Sonstige: Arbeitsplatz", "Postproduktion Sonstige: Arbeitsplatz (Ökostrom)"],
+              "optionen": ["1 Monitor", "2 Monitore", "3 Monitore", "4 Monitore", "5 Monitore", "6 Monitore"],
+              "standard": "2 Monitore"
+            },
+            "anzahl_arbeitsplätze": {
+              "typ": "auswahl",
+              "gilt_fuer": ["Postproduktion Sonstige: Arbeitsplatz", "Postproduktion Sonstige: Arbeitsplatz (Ökostrom)"],
+              "optionen": "1–100",
+              "standard": 1
+            },
             "bezeichnung": { "typ": "freitext" },
             "notiz": { "typ": "freitext" }
           }
@@ -220,18 +269,28 @@
             "menge": { "einheit": "Fläche in m² oder Arbeitstage", "pflicht": true },
             "gebäudeart": {
               "typ": "auswahl",
-              "optionen": ["Bürogebäude", "Bürogebäude, klimatisiert", "Bürogebäude, nur beheizt"]
+              "optionen": ["Bürogebäude", "Bürogebäude, klimatisiert"]
+            },
+            "verbrauchsniveau": {
+              "typ": "auswahl",
+              "optionen": ["geringer Stromverbrauch", "durchschnittlicher Stromverbrauch", "hoher Stromverbrauch"]
             },
             "dauer": {
               "typ": "auswahl",
-              "optionen": ["Tage (1–60)", "Monate (3–12)"]
+              "optionen": [
+                "<1 Tag", "1 Tag", "1,5 Tage", "2 Tage", "2,5 Tage",
+                "3 Tage", "4 Tage", "5 Tage", "6 Tage",
+                "1 Woche", "8 Tage", "9 Tage", "10 Tage", "11 Tage", "12 Tage", "13 Tage",
+                "2 Wochen", "15 Tage", "16 Tage", "17 Tage", "18 Tage", "19 Tage", "20 Tage",
+                "3 Wochen", "22 Tage", "23 Tage", "24 Tage", "25 Tage", "26 Tage", "27 Tage",
+                "4 Wochen", "29 Tage",
+                "1 Monat", "2 Monate", "3 Monate", "4 Monate", "5 Monate", "6 Monate",
+                "7 Monate", "8 Monate", "9 Monate", "10 Monate", "11 Monate", "1 Jahr"
+              ]
             },
             "arbeitsplatz_setup": {
               "typ": "auswahl",
-              "gilt_fuer": [
-                "Büros: Arbeitsplatz",
-                "Büros: Arbeitsplatz (Ökostrom)"
-              ],
+              "gilt_fuer": ["Büros: Arbeitsplatz", "Büros: Arbeitsplatz (Ökostrom)"],
               "optionen": [
                 "Laptop",
                 "Laptop mit 1 Monitor",
@@ -242,10 +301,7 @@
             },
             "menge_arbeitsplatz": {
               "einheit": "Stunden",
-              "gilt_fuer": [
-                "Büros: Arbeitsplatz",
-                "Büros: Arbeitsplatz (Ökostrom)"
-              ],
+              "gilt_fuer": ["Büros: Arbeitsplatz", "Büros: Arbeitsplatz (Ökostrom)"],
               "hinweis": "Einheit ist Stunden, nicht Tage. Standard: 1 Tag × 10h = 10h."
             },
             "bezeichnung": { "typ": "freitext" },
@@ -391,7 +447,14 @@
             "Extern ermittelte Emissionen"
           ],
           "eingabefelder": {
-            "menge": { "einheit": "Anzahl Nächte", "pflicht": true },
+            "menge_hotel": { "einheit": "Anzahl Nächte", "pflicht": true },
+            "menge_ferienwohnung": { "einheit": "Tage", "pflicht": true },
+            "fläche_ferienwohnung": {
+              "typ": "auswahl",
+              "gilt_fuer": ["Ferienwohnung"],
+              "optionen": "5–200 m² in 5er-Schritten",
+              "standard": "60 m²"
+            },
             "bezeichnung": { "typ": "freitext" },
             "notiz": { "typ": "freitext" }
           }
@@ -439,17 +502,22 @@
           "subsect_id": 64,
           "bezeichnung": "Geschirr",
           "quellen": [
-            "Mehrwegbecher",
-            "Einwegbecher (Verbrauch bekannt)",
-            "Einwegbecher (Schätzung)",
             "Teller (Verbrauch bekannt)",
-            "Teller (Schätzung)",
-            "Besteck (Verbrauch bekannt)",
-            "Besteck (Schätzung)",
-            "Extern ermittelte Emissionen"
+            "Besteck (Verbrauch bekannt)"
           ],
           "eingabefelder": {
             "menge": { "einheit": "Anzahl Stück", "pflicht": true },
+            "teller_material": {
+              "typ": "auswahl",
+              "gilt_fuer": ["Teller (Verbrauch bekannt)"],
+              "optionen": [
+                "Kunststoffteller PP (Einweg)",
+                "Kunststoffteller PS (Einweg)",
+                "Kunststoffteller PLA (Einweg)",
+                "Papier-/Zellstoffteller (Einweg)",
+                "Mehrwegteller"
+              ]
+            },
             "bezeichnung": { "typ": "freitext" },
             "notiz": { "typ": "freitext" }
           }
@@ -460,6 +528,7 @@
       "id": "materialeinsatz",
       "sect_id": 32,
       "bezeichnung": "Materialeinsatz",
+      "hinweis": "Vollständig — alle 6 Themen. In der vereinfachten SOLL-Erfassung nur Kulissen-Bau und Kostüme.",
       "themen": [
         {
           "id": "kulissen_bau",
@@ -520,6 +589,16 @@
           ],
           "eingabefelder": {
             "menge": { "einheit": "Euro (brutto)", "pflicht": true },
+            "wäschetrocknung": {
+              "typ": "auswahl",
+              "gilt_fuer": ["Kostümmiete/Weiternutzung"],
+              "optionen": ["Wäschetrockner", "Wäscheleine"]
+            },
+            "waschmittel": {
+              "typ": "auswahl",
+              "gilt_fuer": ["Kostümmiete/Weiternutzung"],
+              "optionen": ["konventionell", "biologisch"]
+            },
             "bezeichnung": { "typ": "freitext" },
             "notiz": { "typ": "freitext" }
           },
@@ -541,7 +620,7 @@
             "AvGas (Flugbenzin)",
             "Schweröl für Schiffe (in kg)",
             "Schweröl für Schiffe (in L)",
-            "Marine Diesel Öl",
+            "Marinedieselöl (MDO)",
             "Extern ermittelte Emissionen"
           ],
           "eingabefelder": {
@@ -573,7 +652,17 @@
             "menge": { "einheit": "Anzahl Behälter/Container oder kg", "pflicht": true },
             "behältergroesse": {
               "typ": "auswahl",
-              "optionen": ["240 Liter (2-Rad-Tonne)", "1100 Liter (4-Rad-Container)"],
+              "optionen": [
+                "20 Liter (Sack)",
+                "30 Liter (Sack)",
+                "60 Liter (Sack/Tonne)",
+                "120 Liter (Tonne)",
+                "240 Liter (Tonne)",
+                "660 Liter (4-Rad-Container)",
+                "1100 Liter (4-Rad-Container)",
+                "5,5 m3 Absetzkippermulde"
+              ],
+              "standard": "240 Liter (Tonne)",
               "gilt_fuer": "Behälter-Quellen"
             },
             "bezeichnung": { "typ": "freitext" },
@@ -590,18 +679,39 @@
             "Extern ermittelte Emissionen"
           ],
           "eingabefelder": {
-            "menge": { "einheit": "Anzahl Packungen", "pflicht": true },
+            "menge": { "einheit": "Stück", "pflicht": true },
             "papiergroesse": {
               "typ": "auswahl",
-              "optionen": ["DIN A4", "DIN A3"]
+              "optionen": [
+                "Visitenkarten (55 x 85 mm)",
+                "DIN C8",
+                "DIN A8",
+                "DIN A5",
+                "DIN A4",
+                "DIN A3",
+                "DIN A2",
+                "DIN A1"
+              ],
+              "standard": "DIN A4"
             },
             "grammatur": {
               "typ": "auswahl",
-              "optionen": ["80 g/m²", "90 g/m²", "160 g/m²"]
+              "optionen": [
+                "60 g/m²", "70 g/m²", "75 g/m²", "80 g/m²", "90 g/m²", "92 g/m²",
+                "100 g/m²", "102 g/m²", "110 g/m²", "112 g/m²", "120 g/m²",
+                "130 g/m²", "135 g/m²", "140 g/m²", "150 g/m²", "160 g/m²",
+                "170 g/m²", "250 g/m²"
+              ],
+              "standard": "80 g/m²"
             },
             "bezugsgroesse": {
               "typ": "auswahl",
-              "optionen": ["5er-Packung (2500 Blätter)", "1 Blatt"]
+              "optionen": [
+                "Blatt",
+                "Packung (500 Blätter)",
+                "5er-Packung (2500 Blätter)"
+              ],
+              "standard": "Blatt"
             },
             "bezeichnung": { "typ": "freitext" },
             "notiz": { "typ": "freitext" }
@@ -621,6 +731,12 @@
           ],
           "eingabefelder": {
             "menge": { "einheit": "Anzahl oder kg", "pflicht": true },
+            "flaschengröße_propan": {
+              "typ": "auswahl",
+              "gilt_fuer": ["Propangasflaschen"],
+              "optionen": ["5 kg", "11 kg", "33 kg"],
+              "standard": "11 kg"
+            },
             "bezeichnung": { "typ": "freitext" },
             "notiz": { "typ": "freitext" }
           }

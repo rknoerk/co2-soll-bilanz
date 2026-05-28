@@ -2,17 +2,22 @@
   "meta": {
     "quelle": "Green Shooting CO2-Rechner 4.0, KlimAktiv gGmbH",
     "url": "https://go.greenshooting.de",
-    "erfasst_am": "2026-04-11",
-    "erfasst_von": "Robert Knörk / Claude Sonnet",
+    "erfasst_am": "2026-05-28",
+    "erfasst_von": "Robert Knörk / Claude Opus",
     "modus": "Vereinfachte SOLL-Erfassung",
     "rechtsgrundlage": "Gemäß Kriterium I.3 'Vorlaufende CO₂-Bilanz' der Ökologischen Standards",
-    "hinweis": "Diese Einstellung wird beim Anlegen der Produktion gesetzt und kann danach nicht mehr geändert werden.",
-    "unterschied_zur_vollversion": "Materialeinsatz ist auf 2 Themen reduziert (Kulissen-Bau, Kostüme). Alle anderen Handlungsfelder und Quellen sind identisch mit der Vollversion.",
+    "hinweis_modus": "Beim Anlegen der SOLL-Daten wird gefragt: 'Vereinfachte (verkürzte) Erfassung von SOLL-Daten?' (Ja/Nein, Default: Nein). Diese Einstellung kann später nicht mehr geändert werden.",
+    "unterschied_zur_vollversion": "Materialeinsatz ist auf 2 Themen reduziert (Kulissen-Bau, Kostüme). Postproduktion Bild/Ton/Sonstiges zeigt nur die 'Arbeitsplatz'-Quellen (keine Schnitt/Sound/Mastering/Rendering-Schätzungen). Alle anderen Handlungsfelder und Quellen sind identisch mit der Vollversion.",
     "wegfallende_themen": [
       "Materialeinsatz > Requisiten",
       "Materialeinsatz > Abfall",
       "Materialeinsatz > Büromaterial",
       "Materialeinsatz > Sonstiges"
+    ],
+    "wegfallende_quellen_postproduktion": [
+      "Postproduktion Bild: Schnitt, Farbkorrektur, Grafik/VFX (je Schätzung/Ökostrom), CPU-Rendering, GPU-Rendering (je normal/Ökostrom), Extern ermittelte Emissionen",
+      "Postproduktion Ton: Sound (Schätzung/Ökostrom), Extern ermittelte Emissionen",
+      "Postproduktion Sonstiges: Mastering (Schätzung/Ökostrom), Festplatten-Archiv, Extern ermittelte Emissionen"
     ]
   },
   "sektoren": [
@@ -40,7 +45,11 @@
           ],
           "eingabe": {
             "menge_einheit": "Fläche in m²",
-            "parameter": ["tägliche Dauer h", "Anzahl Tage/Monate", "Stromverbrauch (unbekannt/niedrig/durchschnittlich/erhöht)"]
+            "parameter": [
+              "tägliche Dauer der Studiobelegung (1–24 h, Standard: 8 h)",
+              "Anzahl Tage (1–60 Tage, 3–12 Monate)",
+              "Stromverbrauch (unbekannt/niedrig/durchschnittlich/erhöht)"
+            ]
           }
         },
         {
@@ -66,8 +75,8 @@
             "menge_einheit": "Nutzungstage",
             "parameter": [
               "Stromverbrauch (unbekannt/niedrig/durchschnittlich/erhöht)",
-              "Setbeleuchtung (inkl./exkl.)",
-              "Catering (inkl./exkl.)"
+              "Stromversorgung Beleuchtung (inkl./exkl. Setbeleuchtung)",
+              "Stromversorgung Catering (inkl./exkl. Catering)"
             ]
           }
         },
@@ -91,9 +100,32 @@
           "eingabe": {
             "menge_einheit": "Fläche in m²",
             "parameter": [
-              "Gebäudeart (29 Optionen, z.B. Wohnung, Einfamilienhaus, Bürogebäude, Hotel, Bar, Restaurant etc.)",
+              "Gebäudeart (28 Optionen)",
               "Verbrauchsniveau (gering/durchschnittlich/hoch)",
-              "Dauer in Tagen"
+              "Dauer"
+            ],
+            "gebäudeart_optionen": [
+              "Wohnung", "Einfamilienhaus",
+              "Bürogebäude", "Bürogebäude, klimatisiert",
+              "Hotel: 1 und 2 Sterne", "Hotel: 3 Sterne", "Hotel: 4 und 5 Sterne",
+              "Pension einfach", "Herberge, Ferienheim",
+              "Bar, Kneipe", "Restaurant", "Kantine, Mensa",
+              "Kino", "Theater", "Saal, Stadthalle",
+              "Schule", "Sporthalle", "Schwimmhalle, Hallenbad", "Fitnessstudio",
+              "Handel Non-Food", "Lebensmittelhandel", "Kaufhaus, Einkaufzentrum",
+              "Lagerhaus", "Kosmetik / Friseur", "Krankenhaus",
+              "Flughafen Terminal", "Flughafen Frachtterminal", "Flughafen Hangar beheizt",
+              "Bahnhof mit Geschäften"
+            ],
+            "dauer_optionen": [
+              "<1 Tag", "1 Tag", "1,5 Tage", "2 Tage", "2,5 Tage",
+              "3 Tage", "4 Tage", "5 Tage", "6 Tage",
+              "1 Woche", "8 Tage", "9 Tage", "10 Tage", "11 Tage", "12 Tage", "13 Tage",
+              "2 Wochen", "15 Tage", "16 Tage", "17 Tage", "18 Tage", "19 Tage", "20 Tage",
+              "3 Wochen", "22 Tage", "23 Tage", "24 Tage", "25 Tage", "26 Tage", "27 Tage",
+              "4 Wochen", "29 Tage",
+              "1 Monat", "2 Monate", "3 Monate", "4 Monate", "5 Monate", "6 Monate",
+              "7 Monate", "8 Monate", "9 Monate", "10 Monate", "11 Monate", "1 Jahr"
             ]
           }
         },
@@ -101,56 +133,51 @@
           "id": "postproduktion_bild",
           "subsect_id": 133,
           "bezeichnung": "Postproduktion: Bild",
+          "hinweis": "Im vereinfachten SOLL-Modus nur 2 Quellen (Arbeitsplatz). Vollversion hat 13 Quellen inkl. Schnitt/Farbkorrektur/VFX/Rendering.",
           "quellen": [
-            "Schnitt (Schätzung)",
-            "Schnitt (Schätzung, Ökostrom)",
-            "Farbkorrektur/Color Grading (Schätzung)",
-            "Farbkorrektur/Color Grading (Schätzung, Ökostrom)",
-            "Grafik/VFX (Schätzung)",
-            "Grafik/VFX (Schätzung, Ökostrom)",
             "Postproduktion Bild: Arbeitsplatz",
-            "Postproduktion Bild: Arbeitsplatz (Ökostrom)",
-            "CPU-Rendering",
-            "CPU-Rendering (Ökostrom)",
-            "GPU-Rendering",
-            "GPU-Rendering (Ökostrom)",
-            "Extern ermittelte Emissionen"
+            "Postproduktion Bild: Arbeitsplatz (Ökostrom)"
           ],
           "eingabe": {
-            "menge_einheit": "Anzahl Arbeitsplätze",
-            "parameter": ["Anzahl Monitore (Standard: 2 Monitore)", "Menge in Stunden (Tage × 10h)"]
+            "menge_einheit": "Stunden (Tage × 10h, Filmproduktion)",
+            "parameter": [
+              "Anzahl Monitore je Arbeitsplatz (1–6, Standard: 2)",
+              "Anzahl Arbeitsplätze (1–100, Standard: 1)"
+            ]
           }
         },
         {
           "id": "postproduktion_ton",
           "subsect_id": 134,
           "bezeichnung": "Postproduktion: Ton",
+          "hinweis": "Im vereinfachten SOLL-Modus nur 2 Quellen (Arbeitsplatz). Vollversion hat zusätzlich Sound (Schätzung/Ökostrom) und Extern ermittelte Emissionen.",
           "quellen": [
-            "Sound (Schätzung)",
-            "Sound (Schätzung, Ökostrom)",
             "Postproduktion Ton: Arbeitsplatz",
-            "Postproduktion Ton: Arbeitsplatz (Ökostrom)",
-            "Extern ermittelte Emissionen"
+            "Postproduktion Ton: Arbeitsplatz (Ökostrom)"
           ],
           "eingabe": {
-            "menge_einheit": "Anzahl Arbeitsplätze",
-            "parameter": ["Menge in Stunden (Tage × 10h)"]
+            "menge_einheit": "Stunden (Tage × 10h, Filmproduktion)",
+            "parameter": [
+              "Anzahl Monitore je Arbeitsplatz (1–6, Standard: 2)",
+              "Anzahl Arbeitsplätze (1–100, Standard: 1)"
+            ]
           }
         },
         {
           "id": "postproduktion_sonstiges",
           "subsect_id": 135,
           "bezeichnung": "Postproduktion: Sonstiges",
+          "hinweis": "Im vereinfachten SOLL-Modus nur 2 Quellen (Arbeitsplatz). Vollversion hat zusätzlich Mastering, Festplatten-Archiv und Extern ermittelte Emissionen.",
           "quellen": [
-            "Mastering (Schätzung)",
-            "Mastering (Schätzung, Ökostrom)",
             "Postproduktion Sonstige: Arbeitsplatz",
-            "Postproduktion Sonstige: Arbeitsplatz (Ökostrom)",
-            "Festplatten-Archiv",
-            "Extern ermittelte Emissionen"
+            "Postproduktion Sonstige: Arbeitsplatz (Ökostrom)"
           ],
           "eingabe": {
-            "menge_einheit": "Anzahl oder Arbeitstage"
+            "menge_einheit": "Stunden (Tage × 10h, Filmproduktion)",
+            "parameter": [
+              "Anzahl Monitore je Arbeitsplatz (1–6, Standard: 2)",
+              "Anzahl Arbeitsplätze (1–100, Standard: 1)"
+            ]
           }
         },
         {
@@ -170,7 +197,23 @@
           ],
           "eingabe": {
             "menge_einheit": "Fläche in m² oder Arbeitstage",
-            "parameter": ["Gebäudeart", "Dauer in Tagen oder Monaten", "Arbeitsplatz-Setup (Laptop / Laptop mit 1 Monitor / Laptop mit 2 Monitoren / PC mit 1 Monitor / PC mit 2 Monitoren)", "Menge in Stunden (nicht Tage — 1 Tag × 10h = 10h)"]
+            "parameter": [
+              "Gebäudeart (Bürogebäude / Bürogebäude, klimatisiert)",
+              "Verbrauchsniveau (gering/durchschnittlich/hoch)",
+              "Dauer",
+              "Arbeitsplatz-Setup (Laptop / Laptop mit 1 Monitor / Laptop mit 2 Monitoren / PC mit 1 Monitor / PC mit 2 Monitoren)",
+              "Menge in Stunden (nicht Tage — 1 Tag × 10h = 10h)"
+            ],
+            "dauer_optionen": [
+              "<1 Tag", "1 Tag", "1,5 Tage", "2 Tage", "2,5 Tage",
+              "3 Tage", "4 Tage", "5 Tage", "6 Tage",
+              "1 Woche", "8 Tage", "9 Tage", "10 Tage", "11 Tage", "12 Tage", "13 Tage",
+              "2 Wochen", "15 Tage", "16 Tage", "17 Tage", "18 Tage", "19 Tage", "20 Tage",
+              "3 Wochen", "22 Tage", "23 Tage", "24 Tage", "25 Tage", "26 Tage", "27 Tage",
+              "4 Wochen", "29 Tage",
+              "1 Monat", "2 Monate", "3 Monate", "4 Monate", "5 Monate", "6 Monate",
+              "7 Monate", "8 Monate", "9 Monate", "10 Monate", "11 Monate", "1 Jahr"
+            ]
           }
         }
       ]
@@ -254,7 +297,11 @@
             "Extern ermittelte Emissionen"
           ],
           "eingabe": {
-            "menge_einheit": "Anzahl Nächte"
+            "menge_einheit": "Anzahl Nächte (bei Hotel) / Tage (bei Ferienwohnung)",
+            "parameter_ferienwohnung": {
+              "fläche": "Dropdown 5–200 m² in 5er-Schritten (Standard: 60 m²)",
+              "menge_einheit": "Tage"
+            }
           }
         }
       ]
@@ -282,8 +329,8 @@
             "menge_einheit": "Anzahl Portionen (Tage × Personen)",
             "parameter": [
               "Fleischkonsum: Mischkost / fleischreduziert / vegetarisch / vegan",
-              "Produktionsweise: konventionell / teilweise bio / bio",
-              "Regionalität: standard / teilweise regional+saisonal / regional+saisonal"
+              "Produktionsweise: konventionell / teilweise bio (ca. 50 %) / bio",
+              "Regionalität: standard / teilweise regional und saisonal / regional und saisonal"
             ]
           }
         },
@@ -292,17 +339,20 @@
           "subsect_id": 64,
           "bezeichnung": "Geschirr",
           "quellen": [
-            "Mehrwegbecher",
-            "Einwegbecher (Verbrauch bekannt)",
-            "Einwegbecher (Schätzung)",
             "Teller (Verbrauch bekannt)",
-            "Teller (Schätzung)",
-            "Besteck (Verbrauch bekannt)",
-            "Besteck (Schätzung)",
-            "Extern ermittelte Emissionen"
+            "Besteck (Verbrauch bekannt)"
           ],
           "eingabe": {
-            "menge_einheit": "Anzahl Stück"
+            "menge_einheit": "Anzahl Stück",
+            "parameter_teller": {
+              "material": [
+                "Kunststoffteller PP (Einweg)",
+                "Kunststoffteller PS (Einweg)",
+                "Kunststoffteller PLA (Einweg)",
+                "Papier-/Zellstoffteller (Einweg)",
+                "Mehrwegteller"
+              ]
+            }
           }
         }
       ]
@@ -373,7 +423,11 @@
             "Extern ermittelte Emissionen"
           ],
           "eingabe": {
-            "menge_einheit": "Euro (brutto)"
+            "menge_einheit": "Euro (brutto)",
+            "parameter_miete": [
+              "Wäschetrocknung (Wäschetrockner / Wäscheleine)",
+              "Waschmittel (konventionell / biologisch)"
+            ]
           }
         }
       ]
