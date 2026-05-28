@@ -1,7 +1,7 @@
 {
   "_meta": {
     "quelle": "https://go.greenshooting.de/de_DE/production/data/?production_entry=create",
-    "ausgelesen_am": "2026-04-16",
+    "ausgelesen_am": "2026-05-28",
     "hinweis": "Alle Felder der Stammdaten-Maske beim Anlegen einer neuen Produktion im KlimAktiv-Rechner (Green Shooting). Optionen originalgetreu übernommen."
   },
   "felder": [
@@ -219,6 +219,16 @@
       "pflicht": false,
       "hinweis": "War bisher nicht in mapping_regeln_basis.md erfasst. Internes Notizfeld.",
       "mapping_quelle": null
+    },
+    {
+      "id": "edit_production_simplified",
+      "label": "Vereinfachte (verkürzte) Erfassung von SOLL-Daten",
+      "typ": "radio",
+      "pflicht": true,
+      "optionen": ["Ja", "Nein"],
+      "standard": "Nein",
+      "hinweis": "Wird beim Anlegen der SOLL-Daten abgefragt (nicht bei Produktionsanlage). Kann danach nicht mehr geändert werden. Vereinfacht: Materialeinsatz nur Kulissen-Bau + Kostüme, Postproduktion nur Arbeitsplatz-Quellen. Rechtsgrundlage: Kriterium I.3 der Ökologischen Standards.",
+      "mapping_quelle": "Entscheidung Green Consultant / Produzentin"
     }
   ]
 }

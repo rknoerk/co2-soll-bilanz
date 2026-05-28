@@ -18,13 +18,20 @@ Ausgabe:
 - Eingabeliste pro Handlungsfeld (Energie / Reise+Transport / Catering / Materialeinsatz)
 - Rückfragen-Template (Prio 1/2/3)
 
-Grundlage: Vereinfachte SOLL-Erfassung gemäß Kriterium I.3 der Ökologischen Standards.
+Grundlage: SOLL-Erfassung gemäß Kriterium I.3 der Ökologischen Standards.
+Unterstützt sowohl die vereinfachte als auch die vollständige Erfassung im Klimaktiv-Rechner.
 
 ---
 
 ## So funktioniert der Prozess
 
 ![Workflow-Übersicht](docs/workflow-overview.svg)
+
+**0. Einrichten** — Drei Fragen vor jeder Bilanz: Arbeitsweise (komplett / schrittweise / hybrid),
+Erfassungsmodus (vereinfacht oder vollständig) und PwC-Nachweisverfahren (ja/nein).
+Der Erfassungsmodus bestimmt den Umfang der Eingabeliste — vereinfacht reicht für die
+meisten geförderten Produktionen, vollständig erfasst zusätzlich Büromaterial, Requisiten,
+Abfall und detaillierte Postproduktions-Quellen.
 
 **1. Lesen** — Der Skill nimmt entgegen was da ist: FFA-Kalkulation, SESAM-Kalkulation,
 Sender-Schema, Stabliste, Drehplan, Motivliste, E-Mails, WhatsApp-Nachrichten. Format
@@ -88,15 +95,15 @@ Der Skill sollte mit Schritt 0 (Arbeitsweise festlegen) starten.
 | `references/mapping_regeln_basis.md` | Übersetzungsregeln, Annahmen, Rückfragen-Logik |
 | `references/mapping_regeln_spielfilm.md` | Ergänzungen für Spielfilm / Kurzfilm |
 | `references/mapping_regeln_doku.md` | Ergänzungen für Dokumentarfilm / Reportage |
-| `references/klimaktiv_rechner_struktur_vereinfacht.json` | Vereinfachte Rechner-Struktur (SOLL) |
-| `references/klimaktiv_rechner_struktur.json` | Vollständige Rechner-Struktur (Sonderfälle) |
+| `references/klimaktiv_rechner_struktur_vereinfacht.json` | Rechner-Struktur für vereinfachte SOLL-Erfassung (2 Materialeinsatz-Themen, Postpro nur Arbeitsplatz-Quellen) |
+| `references/klimaktiv_rechner_struktur.json` | Rechner-Struktur für vollständige SOLL-Erfassung (6 Materialeinsatz-Themen, alle Postpro-Quellen inkl. Schnitt/Rendering) |
 | `references/onboarding_fragebogen.md` | Fragebogen für offene Punkte nach Eingang der Unterlagen |
 | `references/oekologische_standards_destilliert.md` | 25 Muss-Vorgaben, Stand September 2025 |
 | `references/leitlinien_bilanzierung_destilliert.md` | Systemgrenzen, Wesentlichkeit, Berechnungsregeln |
 | `references/stufe2_vorsorge.md` | Stufe-2-Vorsorge: Trigger-Mapping für PwC-Nachweisdokumente |
 | `references/pwc_prueflogik.md` | PwC-Prüfkriterien pro Muss-Vorgabe |
 | `references/pwc_excel_schema.json` | JSON-Schema des PwC-Nachweisverfahren-Excel (209 Felder) |
-| `references/klimaktiv_stammdaten.json` | Stammdaten-Maske des Klimaktiv-Rechners (19 Felder, originalgetreu) |
+| `references/klimaktiv_stammdaten.json` | Stammdaten-Maske des Klimaktiv-Rechners (20 Felder inkl. SOLL-Erfassungsmodus, originalgetreu) |
 
 ---
 
